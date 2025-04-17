@@ -1,0 +1,573 @@
+
+/*===== webfx-kit-javafxgraphics-web@main.css from webfx-kit-javafxgraphics-peers-gwt-j2cl =====*/
+
+:root {
+    --safe-area-inset-top:    env(safe-area-inset-top);
+    --safe-area-inset-right:  env(safe-area-inset-right);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    --safe-area-inset-left:   env(safe-area-inset-left);
+    --fx-border-color: #c0c0c0;
+    --fx-border-radius: 5px;
+    --fx-border-style: solid;
+    --fx-border-width: 1px;
+    --fx-border-color-focus: #0096D6;
+    --fx-svg-path-fill: black;
+}
+
+/* Mocking some basic JavaFX behaviours */
+body {
+    overflow: hidden; /* Disabling browser horizontal and vertical scroll bars */
+    margin: 0; /* Removing the default margin around the body */
+    /* Disabling user selection by default */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Making disabled nodes semi-transparent */
+.disabled {
+    opacity: 50%;
+}
+
+.fx-border > fx-border {
+    border-color: var(--fx-border-color);
+    border-style: var(--fx-border-style);
+    border-width: var(--fx-border-width);
+    border-radius: var(--fx-border-radius);
+}
+
+/* Applying the default JavaFX behaviour for SVGPath */
+fx-svgpath svg path:not([fill]):not([stroke]) { /* if the application code didn't set neither fill nor stroke */
+    fill: var(--fx-svg-path-fill);  /* then the fill is black */
+}
+
+fx-svgpath svg path:not([fill])[stroke] { /* if the application code set the stroke but not the fill */
+    --fx-svg-path-fill: transparent; /* then the fill is transparent */
+    fill: var(--fx-svg-path-fill);
+}
+/*===== webfx-kit-javafxcontrols-web@main.css from webfx-kit-javafxcontrols-peers-gwt-j2cl =====*/
+
+/***** Global variables *****/
+:root {
+    --fx-border-color-focus: #0096D6;
+    --fx-textfield-background: white;
+    --fx-button-background: linear-gradient(180deg, white, #e0e0e0);
+    --fx-togglebutton-selected-background: linear-gradient(180deg, #f0f0f0, #d0d0d0);
+}
+
+::placeholder {
+    color: #888;
+}
+
+fx-button > fx-background, fx-togglebutton > fx-background {
+    background: var(--fx-button-background);
+    border-radius: var(--fx-border-radius);
+}
+
+fx-togglebutton.selected > fx-background {
+    background: var(--fx-togglebutton-selected-background);
+}
+
+fx-button > fx-border, fx-togglebutton > fx-border, fx-textfield > fx-border, textarea {
+    border-color: var(--fx-border-color);
+    border-style: var(--fx-border-style);
+    border-width: var(--fx-border-width);
+    border-radius: var(--fx-border-radius);
+}
+
+fx-textfield:focus-within > fx-border, textarea:focus {
+    border-color: var(--fx-border-color-focus);
+    outline: none !important;
+}
+
+textarea {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+fx-hyperlink fx-text:hover {
+    text-decoration: underline;
+}
+
+fx-textfield > fx-background {
+    background: var(--fx-textfield-background);
+    border-radius: var(--fx-border-radius);
+}
+
+/* Removing borders, outlines and background for input elements (to not interfere with the above) */
+input, input[type="text"], input[type="password"] { /* is input rule not enough? */
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Cross for the tab close button */
+.tab-close-button {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' stroke='%23444' stroke-width='2' stroke-linejoin='round' viewBox=\'0 0 16 16\'%3E%3Cpath d=\'M 4,4 L 12,12 Z M 4,12 L 12,4 Z\'/%3E%3C/svg%3E");
+}
+
+/* Ellipsis management for wrapped text inside a label with restricted height */
+
+fx-label.ellipsis {
+    overflow: hidden;
+}
+
+fx-label.ellipsis fx-text {
+    /*text-overflow: ellipsis;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp will be set in JS by HtmlTextPeer */
+}
+
+/*===== webfx-kit-javafxweb-web@main.css from webfx-kit-javafxweb-peers-gwt-j2cl =====*/
+
+iframe {
+    border: none;
+}
+
+/*===== web@main.css from CyclingPower_Web-application =====*/
+
+/***** GWT theme CLEAN *****/
+
+/********* To disable default webfx settings **********/
+:root {
+    --fx-border-color: none;
+    --fx-border-radius: none;
+    --fx-border-style: none;
+    --fx-border-width: none;
+    --fx-border-color-focus: none;
+    --fx-textfield-background: none;
+}
+fx-button > fx-background {
+      background: none;
+      border-radius: none;
+}
+/******************************************************/
+
+@font-face {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-icon-button {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-size: 32px;
+    color: brown;
+    background-color: transparent;
+/*    padding: 5px;   */
+}
+
+.font-icon-button:hover {
+   border: 2px solid Wheat;
+}
+
+.font-icon-button[disabled]:hover {
+  border: none;
+}
+
+.font-icon-button_big {
+  font-family: 'Feather';
+  src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+  font-size: 48px;
+  color: blue;
+  background-color: transparent;
+/*    padding: 5px;   */
+}
+
+.font-icon-button_big:hover {
+   border: 2px solid Wheat;
+}
+
+.font-chevron-button {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-size: 64px;
+    color: red;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+/*    padding: 5px;   */
+}
+
+.font-label {
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+/*    font-family: inherit; */
+/*    font-size:18px;     */  /*   font-size: 100%;  */
+    /*
+    3.2vw = 3.2% of width of viewport
+    3.2vh = 3.2% of height of viewport
+    3.2vmin = Smaller of 3.2vw or 3.2vh
+    3.2vmax = Bigger of 3.2vw or 3.2vh
+    */
+    font-size: 2.0vmin;    /* 1.8 */
+/*    font-size: calc(50% + 1vw); */
+/*    font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768)); */
+    font-style: normal;
+    font-weight: bold;   /*  font-weight: 900;  */
+}
+
+body {
+    overflow: auto; /* omogucava scroll - po defaultu hidden */
+}
+
+.my_button {
+    background-color: rgba(0, 0, 0, 1) !important;
+    color: white;
+    border:2px solid Wheat;
+    border-radius: 8px;
+    font-size: 1.7vmin;
+/*    padding: 0px 7px 0px; */ /* gore desno dole  */
+}
+
+.my_button:hover {
+  color: black;
+  border-width: 1;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: #939393;
+}
+
+/* nema uticaja na html
+ .button:pressed {
+    background-color: Green !important;
+ }
+ */
+.my_button:active {
+     border-width:1;
+     background-color:rgba(0, 0, 0, 1) !important;
+     color:Black;
+     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.my_button[disabled] {
+  cursor: default;
+  color: #888;
+}
+
+.my_button[disabled]:hover {
+  border: 1px outset #ccc;
+}
+
+/*----------------------------------*/
+.label{
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+/*    font-family: inherit; */
+/*    font-size:18px;     */  /*   font-size: 100%;  */
+    /*
+    3.2vw = 3.2% of width of viewport
+    3.2vh = 3.2% of height of viewport
+    3.2vmin = Smaller of 3.2vw or 3.2vh
+    3.2vmax = Bigger of 3.2vw or 3.2vh
+    */
+    font-size: 2.4vmin;    /* 1.8 */
+/*    font-size: calc(50% + 1vw); */
+/*    font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768)); */
+    font-style: normal;
+    font-weight: bold;   /*  font-weight: 900;  */
+}
+
+ .text-field[type="text"] {
+   color:Black;
+   padding: 0px !important;
+   height: 20 !important;
+ /*  position: center !important;  */
+   left: 0px !important;
+   outline: none;
+   border: 1px solid #cdcdcd;
+   border-color: rgba(0, 0, 0, .15);
+   background-color: white;
+   font-size: 1.8vmin;
+ }
+/*
+ .pass-field[type="password"] {
+   color:Black;
+   padding: 0px !important;
+   height: 20 !important;
+   left: 0px !important;
+   outline: none;
+   border: 1px solid #cdcdcd;
+   border-color: rgba(0, 0, 0, .15);
+   background-color: white;
+   font-size: 1.8vmin;
+ }
+*/
+
+input[type=password]{
+   color:Black;
+   padding: 0 px;
+   height: 16 px;
+   position: relative;
+   left: 0;
+   outline: none;
+   border: 1px solid #cdcdcd;
+   background-color: white;
+   font-size: 1.8vmin;
+ }
+
+
+.num_label{
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+/*    font-family: inherit; */
+/*    font-size:18px;     */  /*   font-size: 100%;  */
+    /*
+    3.2vw = 3.2% of width of viewport
+    3.2vh = 3.2% of height of viewport
+    3.2vmin = Smaller of 3.2vw or 3.2vh
+    3.2vmax = Bigger of 3.2vw or 3.2vh
+    */
+    font-size: 4.5vmin;    /* 1.8 */
+/*    font-size: calc(50% + 1vw); */
+/*    font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768)); */
+    font-style: normal;
+    font-weight: bold;   /*  font-weight: 900;  */
+}
+
+.num_label_right{
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+/*    font-family: inherit; */
+/*    font-size:18px;     */  /*   font-size: 100%;  */
+    /*
+    3.2vw = 3.2% of width of viewport
+    3.2vh = 3.2% of height of viewport
+    3.2vmin = Smaller of 3.2vw or 3.2vh
+    3.2vmax = Bigger of 3.2vw or 3.2vh
+    */
+    font-size: 3.9vmin;    /* 1.8 */
+/*    font-size: calc(50% + 1vw); */
+/*    font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768)); */
+    font-style: normal;
+    font-weight: bold;   /*  font-weight: 900;  */
+}
+
+/*-----------------------------*/
+.simple_list_container {
+    width: 100%; /* Ensure container takes parent width */
+    height: 200px; /* Fixed height for scrolling */
+    overflow-y: auto; /* Ensure scrolling */
+    overflow-x: hidden;
+    border: 1px solid #cdcdcd;
+}
+
+.simple_list{
+   background-color: transparent;
+   color: black;
+   font-size: 2vmin;    /* 1.8 */
+   /*    font-size: calc(50% + 1vw); */
+   /*    font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768)); */
+    font-style: normal;
+    font-weight: bold;
+    width: 100%; /* Ensure labels take full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.simple_list_selected{
+   background-color: #d3d3d3;
+   color: black;
+}
+
+.simple_list:hover {
+  border: 1px outset #ccc;
+}
+
+/* Style for the icon */
+.list-icon {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-size: 16px;
+    color: blue;
+}
+
+/*----------------- Slider ---------------*/
+
+/* The slider itself samo mozilla */
+.custom-slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #b0c1b0;
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  width: 100%; /* Specific width is required for Firefox. */
+  accent-color: green; /* Green thumb background za webkit thumb iz nekog razloga ne radi kada se stavi u ::-webkit-slider-thumb */
+}
+
+/* TODO -ne radi webkit ispravno za thumb */
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  transform: scale(4); /* makes thumb larger */
+  background: #white; /* sredina thumb-a - ustvari to je thumb */
+  width: 0.3vmin; /* Set a specific slider handle width */
+  height: 1.5px; /* Slider handle height sredina */
+  cursor: pointer; /* Cursor on hover */
+  margin-top: -2px;
+  border-radius: 20%;  /* rectangle odredjuje radius za dole outline - samo webkit - verovatno BUG */
+  outline: 2px solid green; /* oko thumb-a */
+  padding: 2px 1px 1px 0px;
+}
+
+.custom-slider::-webkit-slider-thumb:active {
+/*  border: 2px solid red; */ /* ne radi */
+  outline: 2px solid red;  -----------------
+}
+
+/* samo webkit */
+.custom-slider::-webkit-slider-runnable-track {
+  outline: none; /* Remove outline */
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black; /* white background */
+/*  background: transparent; */ /* da bi se videla runnable-track */
+  height: 0.25em;
+/*  opacity: 0.7; */
+}
+
+.custom-slider::-moz-range-thumb {
+  width: 1%; /* Set a specific slider handle width */
+  height: 100%; /* Slider handle height */
+  background: white; /* Green thumb background */
+  cursor: pointer; /* Cursor on hover */
+  border: 6px solid green;
+  border-radius: 30%;  /* rectangle */
+}
+
+.custom-slider::-moz-range-thumb:active{
+    height: 100%;
+  border: 6px solid red;
+}
+
+/* Mouse-over effects */
+.custom-slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/*----------------------------*/
+.custom-menu-button {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    background-color: rgba(0, 0, 0, 1) !important;
+    color: white;
+    border:2px solid Wheat;
+    border-radius: 4px;
+    font-size: 2.2vmin;
+/*    padding: 5px 10px; */
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    display: inline-block;  /* Ensures proper width based on content */
+}
+
+.custom-menu-button:hover {
+  color: black;
+  border-width: 1;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: #939393;
+}
+
+/*----------------------------*/
+.custom-menu-small-button {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    background-color: rgba(0, 0, 0, 1) !important;
+    color: white;
+    border:2px solid Wheat;
+    border-radius: 4px;
+    font-size: 1.6vmin;
+/*    padding: 5px 10px; */
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    display: inline-block;  /* Ensures proper width based on content */
+}
+
+.custom-menu-small-button:hover {
+  color: black;
+  border-width: 1;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: #939393;
+}
+
+.custom-menu-item {
+/*    padding: 5px 10px; */
+    cursor: pointer;
+    display: block; /* Ensure each item is a block for proper spacing */
+}
+
+.custom-menu-item:hover {
+    background-color: #d0d0d0;
+}
+
+.custom-menu-item .label {
+    font-family: 'Feather';
+    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-size: 1.8vmin;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.context-menu {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+}
+
+/*------------- ProgressBar --------------*/
+
+.custom-progress-bar {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-value {
+  background-color: green; /* progress color */
+}
+
+/* FIREFOX */
+.custom-progress-bar::-moz-progress-bar {
+  background-color: green;  /* progress color */
+}
+
+/*------------- tab pane --------------*/
+/*
+.tab-pane {
+	background-color: transparent;
+}
+
+.tab-header-area .tab-header-background  {
+    background-color:blue !important;
+    min-height: 26px !important;
+    max-height: 26px !important;
+}
+
+.tab-pane .tab-label {
+    font-size: 1.5vmin;
+	color: black;
+	font-weight: bold;
+	padding: 0 10 0 10;
+}
+
+.tab-pane .headers-region {
+    background-color:blue !important;
+}
+
+.tab-pane .tab-container {
+}
+*/
