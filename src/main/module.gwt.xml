@@ -256,6 +256,12 @@
     <source path="dev/webfx/platform/util/uuid"/>
     <!--============================< webfx-platform-util-time >============================-->
     <source path="dev/webfx/platform/util/time"/>
+    <!--=========================< webfx-platform-windowlocation >==========================-->
+    <source path="dev/webfx/platform/windowlocation"/>
+    <source path="dev/webfx/platform/windowlocation/spi"/>
+    <source path="dev/webfx/platform/windowlocation/spi/impl"/>
+    <!--=====================< webfx-platform-windowlocation-gwt-j2cl >=====================-->
+    <source path="dev/webfx/platform/windowlocation/spi/impl/gwtj2cl"/>
     <!--=============================< webfx-stack-com-serial >=============================-->
     <source path="dev/webfx/stack/com/serial"/>
     <source path="dev/webfx/stack/com/serial/spi"/>

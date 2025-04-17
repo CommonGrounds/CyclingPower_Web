@@ -1,2 +1,0 @@
-# Module CyclingPower_Web_application_gwt
-# RPC service class, partial path of RPC policy file

@@ -188,6 +188,10 @@
   <source path="dev/webfx/platform/util/tuples"/>
   <source path="dev/webfx/platform/util/uuid"/>
   <source path="dev/webfx/platform/util/time"/>
+  <source path="dev/webfx/platform/windowlocation"/>
+  <source path="dev/webfx/platform/windowlocation/spi"/>
+  <source path="dev/webfx/platform/windowlocation/spi/impl"/>
+  <source path="dev/webfx/platform/windowlocation/spi/impl/gwtj2cl"/>
   <source path="dev/webfx/stack/com/serial"/>
   <source path="dev/webfx/stack/com/serial/spi"/>
   <source path="dev/webfx/stack/com/serial/spi/impl"/>
