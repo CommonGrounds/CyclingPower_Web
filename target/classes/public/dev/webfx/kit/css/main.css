@@ -380,6 +380,11 @@ input[type=password]{
   border: 1px outset #ccc;
 }
 
+.pic_scroll{
+  width: 300px;
+  overflow-x: hidden;
+}
+
 /* Style for the icon */
 .list-icon {
     font-family: 'Feather';
@@ -474,7 +479,7 @@ input[type=password]{
 .custom-menu-button:hover {
   color: black;
   border-width: 1;
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
   border-color: #939393;
 }
 
@@ -571,3 +576,110 @@ input[type=password]{
 .tab-pane .tab-container {
 }
 */
+
+
+/* src/main/resources/css/light.css */
+.image-view {
+    transition: filter 0.05s ease, box-shadow 0.05s ease;
+}
+
+.light-0 { filter: brightness(50%); box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.1); }
+.light-1 { filter: brightness(51%); box-shadow: 1px 1px 20px 10px rgba(255, 255, 255, 0.11); }
+.light-2 { filter: brightness(52%); box-shadow: 2px 2px 20px 10px rgba(255, 255, 255, 0.12); }
+.light-3 { filter: brightness(53%); box-shadow: 3px 3px 20px 10px rgba(255, 255, 255, 0.13); }
+.light-4 { filter: brightness(54%); box-shadow: 4px 4px 20px 10px rgba(255, 255, 255, 0.14); }
+.light-5 { filter: brightness(55%); box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.15); }
+.light-6 { filter: brightness(56%); box-shadow: 6px 6px 20px 10px rgba(255, 255, 255, 0.16); }
+.light-7 { filter: brightness(57%); box-shadow: 7px 7px 20px 10px rgba(255, 255, 255, 0.17); }
+.light-8 { filter: brightness(58%); box-shadow: 8px 8px 20px 10px rgba(255, 255, 255, 0.18); }
+.light-9 { filter: brightness(59%); box-shadow: 9px 9px 20px 10px rgba(255, 255, 255, 0.19); }
+.light-10 { filter: brightness(60%); box-shadow: 10px 10px 20px 10px rgba(255, 255, 255, 0.2); }
+.light-11 { filter: brightness(61%); box-shadow: 11px 11px 20px 10px rgba(255, 255, 255, 0.21); }
+.light-12 { filter: brightness(62%); box-shadow: 12px 12px 20px 10px rgba(255, 255, 255, 0.22); }
+.light-13 { filter: brightness(63%); box-shadow: 13px 13px 20px 10px rgba(255, 255, 255, 0.23); }
+.light-14 { filter: brightness(64%); box-shadow: 14px 14px 20px 10px rgba(255, 255, 255, 0.24); }
+.light-15 { filter: brightness(65%); box-shadow: 15px 15px 20px 10px rgba(255, 255, 255, 0.25); }
+.light-16 { filter: brightness(66%); box-shadow: 16px 16px 20px 10px rgba(255, 255, 255, 0.26); }
+.light-17 { filter: brightness(67%); box-shadow: 17px 17px 20px 10px rgba(255, 255, 255, 0.27); }
+.light-18 { filter: brightness(68%); box-shadow: 18px 18px 20px 10px rgba(255, 255, 255, 0.28); }
+.light-19 { filter: brightness(69%); box-shadow: 19px 19px 20px 10px rgba(255, 255, 255, 0.29); }
+.light-20 { filter: brightness(70%); box-shadow: 20px 20px 20px 10px rgba(255, 255, 255, 0.3); }
+.light-21 { filter: brightness(71%); box-shadow: 21px 21px 20px 10px rgba(255, 255, 255, 0.31); }
+.light-22 { filter: brightness(72%); box-shadow: 22px 22px 20px 10px rgba(255, 255, 255, 0.32); }
+.light-23 { filter: brightness(73%); box-shadow: 23px 23px 20px 10px rgba(255, 255, 255, 0.33); }
+.light-24 { filter: brightness(74%); box-shadow: 24px 24px 20px 10px rgba(255, 255, 255, 0.34); }
+.light-25 { filter: brightness(75%); box-shadow: 25px 25px 20px 10px rgba(255, 255, 255, 0.35); }
+.light-26 { filter: brightness(76%); box-shadow: 26px 26px 20px 10px rgba(255, 255, 255, 0.36); }
+.light-27 { filter: brightness(77%); box-shadow: 27px 27px 20px 10px rgba(255, 255, 255, 0.37); }
+.light-28 { filter: brightness(78%); box-shadow: 28px 28px 20px 10px rgba(255, 255, 255, 0.38); }
+.light-29 { filter: brightness(79%); box-shadow: 29px 29px 20px 10px rgba(255, 255, 255, 0.39); }
+.light-30 { filter: brightness(80%); box-shadow: 30px 30px 20px 10px rgba(255, 255, 255, 0.4); }
+.light-31 { filter: brightness(81%); box-shadow: 31px 31px 20px 10px rgba(255, 255, 255, 0.41); }
+.light-32 { filter: brightness(82%); box-shadow: 32px 32px 20px 10px rgba(255, 255, 255, 0.42); }
+.light-33 { filter: brightness(83%); box-shadow: 33px 33px 20px 10px rgba(255, 255, 255, 0.43); }
+.light-34 { filter: brightness(84%); box-shadow: 34px 34px 20px 10px rgba(255, 255, 255, 0.44); }
+.light-35 { filter: brightness(85%); box-shadow: 35px 35px 20px 10px rgba(255, 255, 255, 0.45); }
+.light-36 { filter: brightness(86%); box-shadow: 36px 36px 20px 10px rgba(255, 255, 255, 0.46); }
+.light-37 { filter: brightness(87%); box-shadow: 37px 37px 20px 10px rgba(255, 255, 255, 0.47); }
+.light-38 { filter: brightness(88%); box-shadow: 38px 38px 20px 10px rgba(255, 255, 255, 0.48); }
+.light-39 { filter: brightness(89%); box-shadow: 39px 39px 20px 10px rgba(255, 255, 255, 0.49); }
+.light-40 { filter: brightness(90%); box-shadow: 40px 40px 20px 10px rgba(255, 255, 255, 0.5); }
+.light-41 { filter: brightness(91%); box-shadow: 41px 41px 20px 10px rgba(255, 255, 255, 0.51); }
+.light-42 { filter: brightness(92%); box-shadow: 42px 42px 20px 10px rgba(255, 255, 255, 0.52); }
+.light-43 { filter: brightness(93%); box-shadow: 43px 43px 20px 10px rgba(255, 255, 255, 0.53); }
+.light-44 { filter: brightness(94%); box-shadow: 44px 44px 20px 10px rgba(255, 255, 255, 0.54); }
+.light-45 { filter: brightness(95%); box-shadow: 45px 45px 20px 10px rgba(255, 255, 255, 0.55); }
+.light-46 { filter: brightness(96%); box-shadow: 46px 46px 20px 10px rgba(255, 255, 255, 0.56); }
+.light-47 { filter: brightness(97%); box-shadow: 47px 47px 20px 10px rgba(255, 255, 255, 0.57); }
+.light-48 { filter: brightness(98%); box-shadow: 48px 48px 20px 10px rgba(255, 255, 255, 0.58); }
+.light-49 { filter: brightness(99%); box-shadow: 49px 49px 20px 10px rgba(255, 255, 255, 0.59); }
+.light-50 { filter: brightness(100%); box-shadow: 50px 50px 20px 10px rgba(255, 255, 255, 0.6); }
+.light-51 { filter: brightness(101%); box-shadow: 49px 49px 20px 10px rgba(255, 255, 255, 0.61); }
+.light-52 { filter: brightness(102%); box-shadow: 48px 48px 20px 10px rgba(255, 255, 255, 0.62); }
+.light-53 { filter: brightness(103%); box-shadow: 47px 47px 20px 10px rgba(255, 255, 255, 0.63); }
+.light-54 { filter: brightness(104%); box-shadow: 46px 46px 20px 10px rgba(255, 255, 255, 0.64); }
+.light-55 { filter: brightness(105%); box-shadow: 45px 45px 20px 10px rgba(255, 255, 255, 0.65); }
+.light-56 { filter: brightness(106%); box-shadow: 44px 44px 20px 10px rgba(255, 255, 255, 0.66); }
+.light-57 { filter: brightness(107%); box-shadow: 43px 43px 20px 10px rgba(255, 255, 255, 0.67); }
+.light-58 { filter: brightness(108%); box-shadow: 42px 42px 20px 10px rgba(255, 255, 255, 0.68); }
+.light-59 { filter: brightness(109%); box-shadow: 41px 41px 20px 10px rgba(255, 255, 255, 0.69); }
+.light-60 { filter: brightness(110%); box-shadow: 40px 40px 20px 10px rgba(255, 255, 255, 0.7); }
+.light-61 { filter: brightness(111%); box-shadow: 39px 39px 20px 10px rgba(255, 255, 255, 0.71); }
+.light-62 { filter: brightness(112%); box-shadow: 38px 38px 20px 10px rgba(255, 255, 255, 0.72); }
+.light-63 { filter: brightness(113%); box-shadow: 37px 37px 20px 10px rgba(255, 255, 255, 0.73); }
+.light-64 { filter: brightness(114%); box-shadow: 36px 36px 20px 10px rgba(255, 255, 255, 0.74); }
+.light-65 { filter: brightness(115%); box-shadow: 35px 35px 20px 10px rgba(255, 255, 255, 0.75); }
+.light-66 { filter: brightness(116%); box-shadow: 34px 34px 20px 10px rgba(255, 255, 255, 0.76); }
+.light-67 { filter: brightness(117%); box-shadow: 33px 33px 20px 10px rgba(255, 255, 255, 0.77); }
+.light-68 { filter: brightness(118%); box-shadow: 32px 32px 20px 10px rgba(255, 255, 255, 0.78); }
+.light-69 { filter: brightness(119%); box-shadow: 31px 31px 20px 10px rgba(255, 255, 255, 0.79); }
+.light-70 { filter: brightness(120%); box-shadow: 30px 30px 20px 10px rgba(255, 255, 255, 0.8); }
+.light-71 { filter: brightness(121%); box-shadow: 29px 29px 20px 10px rgba(255, 255, 255, 0.81); }
+.light-72 { filter: brightness(122%); box-shadow: 28px 28px 20px 10px rgba(255, 255, 255, 0.82); }
+.light-73 { filter: brightness(123%); box-shadow: 27px 27px 20px 10px rgba(255, 255, 255, 0.83); }
+.light-74 { filter: brightness(124%); box-shadow: 26px 26px 20px 10px rgba(255, 255, 255, 0.84); }
+.light-75 { filter: brightness(125%); box-shadow: 25px 25px 20px 10px rgba(255, 255, 255, 0.85); }
+.light-76 { filter: brightness(126%); box-shadow: 24px 24px 20px 10px rgba(255, 255, 255, 0.86); }
+.light-77 { filter: brightness(127%); box-shadow: 23px 23px 20px 10px rgba(255, 255, 255, 0.87); }
+.light-78 { filter: brightness(128%); box-shadow: 22px 22px 20px 10px rgba(255, 255, 255, 0.88); }
+.light-79 { filter: brightness(129%); box-shadow: 21px 21px 20px 10px rgba(255, 255, 255, 0.89); }
+.light-80 { filter: brightness(130%); box-shadow: 20px 20px 20px 10px rgba(255, 255, 255, 0.9); }
+.light-81 { filter: brightness(131%); box-shadow: 19px 19px 20px 10px rgba(255, 255, 255, 0.91); }
+.light-82 { filter: brightness(132%); box-shadow: 18px 18px 20px 10px rgba(255, 255, 255, 0.92); }
+.light-83 { filter: brightness(133%); box-shadow: 17px 17px 20px 10px rgba(255, 255, 255, 0.93); }
+.light-84 { filter: brightness(134%); box-shadow: 16px 16px 20px 10px rgba(255, 255, 255, 0.94); }
+.light-85 { filter: brightness(135%); box-shadow: 15px 15px 20px 10px rgba(255, 255, 255, 0.95); }
+.light-86 { filter: brightness(136%); box-shadow: 14px 14px 20px 10px rgba(255, 255, 255, 0.96); }
+.light-87 { filter: brightness(137%); box-shadow: 13px 13px 20px 10px rgba(255, 255, 255, 0.97); }
+.light-88 { filter: brightness(138%); box-shadow: 12px 12px 20px 10px rgba(255, 255, 255, 0.98); }
+.light-89 { filter: brightness(139%); box-shadow: 11px 11px 20px 10px rgba(255, 255, 255, 0.99); }
+.light-90 { filter: brightness(140%); box-shadow: 10px 10px 20px 10px rgba(255, 255, 255, 1.0); }
+.light-91 { filter: brightness(141%); box-shadow: 9px 9px 20px 10px rgba(255, 255, 255, 0.99); }
+.light-92 { filter: brightness(142%); box-shadow: 8px 8px 20px 10px rgba(255, 255, 255, 0.98); }
+.light-93 { filter: brightness(143%); box-shadow: 7px 7px 20px 10px rgba(255, 255, 255, 0.97); }
+.light-94 { filter: brightness(144%); box-shadow: 6px 6px 20px 10px rgba(255, 255, 255, 0.96); }
+.light-95 { filter: brightness(145%); box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.95); }
+.light-96 { filter: brightness(146%); box-shadow: 4px 4px 20px 10px rgba(255, 255, 255, 0.94); }
+.light-97 { filter: brightness(147%); box-shadow: 3px 3px 20px 10px rgba(255, 255, 255, 0.93); }
+.light-98 { filter: brightness(148%); box-shadow: 2px 2px 20px 10px rgba(255, 255, 255, 0.92); }
+.light-99 { filter: brightness(149%); box-shadow: 1px 1px 20px 10px rgba(255, 255, 255, 0.91); }

@@ -88,6 +88,8 @@
   <inherits name="elemental2.webstorage.WebStorage"/>
   <inherits name="com.google.gwt.user.User"/>
   <inherits name="org.gwtproject.nio.GwtNioSupport"/>
+  <source path="service"/>
+  <source path="gwt_service"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/gwtj2cl/html"/>
   <source path="dev/webfx/kit/registry/javafxcontrols"/>

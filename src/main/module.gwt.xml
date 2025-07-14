@@ -106,6 +106,10 @@
     <inherits name="com.google.gwt.user.User"/>
     <!--=================================< java-nio-emul >==================================-->
     <inherits name="org.gwtproject.nio.GwtNioSupport"/>
+    <!--====================================< service >=====================================-->
+    <source path="service"/>
+    <!--==================================< service_gwt >===================================-->
+    <source path="gwt_service"/>
     <!--======================< webfx-kit-javafxcontrols-peers-base >=======================-->
     <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
     <!--====================< webfx-kit-javafxcontrols-peers-gwt-j2cl >=====================-->

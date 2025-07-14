@@ -44,5 +44,6 @@ public final class GwtEntryPoint implements ApplicationBooterProvider, EntryPoin
         register(dev.webfx.stack.com.serial.spi.SerialCodec.class, dev.java4now.web.pojo.UserSerialCodec::new, dev.webfx.stack.com.serial.spi.impl.ProvidedBatchSerialCodec::new);
         register(dev.webfx.stack.com.websocket.spi.WebSocketServiceProvider.class, dev.webfx.stack.com.websocket.spi.impl.gwtj2cl.nativ.GwtJ2clNativeWebSocketServiceProvider::new);
         register(javafx.application.Application.class, dev.java4now.web.CyclingPower_Web::new);
+        register(service.ServiceProvider.class, gwt_service.GWT_MyServiceProvider::new);
     }
 }
