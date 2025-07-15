@@ -578,6 +578,30 @@ input[type=password]{
 */
 
 
+/* Adjust font size for screens < 500px */
+@media screen and (max-width: 500px) {
+
+    .label{
+        font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
+    }
+
+    .simple_list {
+        font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
+    }
+
+    .custom-menu-item .label {
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+
+    .custom-menu-small-button {
+        font-size: clamp(14px, 3vw, 16px); /* Larger base size for small screens */
+    }
+
+    .custom-menu-button {
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+}
+
 /* src/main/resources/css/light.css */
 .image-view {
     transition: filter 0.05s ease, box-shadow 0.05s ease;

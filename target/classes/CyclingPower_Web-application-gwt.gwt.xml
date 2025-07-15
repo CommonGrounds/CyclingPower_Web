@@ -5,6 +5,8 @@
   <set-property name="gwt.logging.enabled" value="TRUE"/>
   <set-property name="gwt.logging.logLevel" value="FINEST"/>
   <set-property name="gwt.logging.consoleHandler" value="ENABLED"/>
+  <set-configuration-property name="compiler.embedSourceMaps" value="true"/>
+  <set-configuration-property name="includeSourceMapUrl" value="symbolMaps/__HASH___sourceMap__FRAGMENT__.json"/>
   <source path="com/sun/javafx"/>
   <source path="com/sun/javafx/binding"/>
   <source path="com/sun/javafx/collections"/>
