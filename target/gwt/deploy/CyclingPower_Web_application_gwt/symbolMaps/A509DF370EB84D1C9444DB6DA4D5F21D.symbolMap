@@ -400,7 +400,7 @@ oi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_LeftPane$lambd
 pi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_LeftPane$lambda$2$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_LeftPane$lambda$2$Type_2_classLit,dev/java4now/web/view/LeftPane.java,125,-1
 qi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_LeftPane_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_LeftPane_2_classLit,dev/java4now/web/view/LeftPane.java,51,-1
 ri,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$1$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$1$lambda$0$Type_2_classLit,dev/java4now/web/view/UpPane.java,202,-1
-si,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$1_2_classLit,dev/java4now/web/view/UpPane.java,154,-1
+si,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$1_2_classLit,dev/java4now/web/view/UpPane.java,156,-1
 ti,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$2_2_classLit,dev/java4now/web/view/UpPane.java,257,-1
 ui,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$3$1$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$3$1$lambda$0$Type_2_classLit,dev/java4now/web/view/UpPane.java,381,-1
 vi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$3$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$3$1_2_classLit,dev/java4now/web/view/UpPane.java,377,-1
@@ -408,8 +408,8 @@ wi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$3_2_cla
 xi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$0$Type_2_classLit,dev/java4now/web/view/UpPane.java,60,-1
 yi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$1$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$1$Type_2_classLit,dev/java4now/web/view/UpPane.java,84,-1
 zi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$10$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$10$Type_2_classLit,dev/java4now/web/view/UpPane.java,359,-1
-Ai,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$2$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$2$Type_2_classLit,dev/java4now/web/view/UpPane.java,146,-1
-Bi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$3$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$3$Type_2_classLit,dev/java4now/web/view/UpPane.java,147,-1
+Ai,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$2$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$2$Type_2_classLit,dev/java4now/web/view/UpPane.java,148,-1
+Bi,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$3$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$3$Type_2_classLit,dev/java4now/web/view/UpPane.java,149,-1
 Ci,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$4$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$4$Type_2_classLit,dev/java4now/web/view/UpPane.java,245,-1
 Di,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$5$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$5$Type_2_classLit,dev/java4now/web/view/UpPane.java,251,-1
 Ei,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_view_UpPane$lambda$6$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_view_UpPane$lambda$6$Type_2_classLit,dev/java4now/web/view/UpPane.java,290,-1
@@ -3454,15 +3454,15 @@ G8,dev.java4now.web.view.UpPane::rootPane,dev.java4now.web.view.UpPane,rootPane,
 P8,dev.java4now.web.view.UpPane::set_PictureBox()V,dev.java4now.web.view.UpPane,set_PictureBox,dev/java4now/web/view/UpPane.java,344,0
 H8,dev.java4now.web.view.UpPane::transparentPane,dev.java4now.web.view.UpPane,transparentPane,dev/java4now/web/view/UpPane.java,51,-1
 I8,dev.java4now.web.view.UpPane::year_btn,dev.java4now.web.view.UpPane,year_btn,dev/java4now/web/view/UpPane.java,56,-1
-UpPane$1,,dev.java4now.web.view.UpPane$1,,dev/java4now/web/view/UpPane.java,154,-1
+UpPane$1,,dev.java4now.web.view.UpPane$1,,dev/java4now/web/view/UpPane.java,156,-1
 Q8,dev.java4now.web.view.UpPane$1::$lambda$0(Ldev/java4now/web/view/UpPane$1;Ljavafx/scene/image/ImageView;)V,dev.java4now.web.view.UpPane$1,$lambda$0,dev/java4now/web/view/UpPane.java,202,0
-R8,dev.java4now.web.view.UpPane$1::UpPane$1([Ljavafx/scene/Node;) <init>,dev.java4now.web.view.UpPane$1,UpPane$1,dev/java4now/web/view/UpPane.java,154,0
-S8,dev.java4now.web.view.UpPane$1::layoutChildren()V,dev.java4now.web.view.UpPane$1,layoutChildren,dev/java4now/web/view/UpPane.java,156,0
-g,dev.java4now.web.view.UpPane$1::val$datum_box6,dev.java4now.web.view.UpPane$1,val$datum_box6,dev/java4now/web/view/UpPane.java,154,-1
-i,dev.java4now.web.view.UpPane$1::val$lbl_device24,dev.java4now.web.view.UpPane$1,val$lbl_device24,dev/java4now/web/view/UpPane.java,154,-1
-j,dev.java4now.web.view.UpPane$1::val$lbl_device3,dev.java4now.web.view.UpPane$1,val$lbl_device3,dev/java4now/web/view/UpPane.java,154,-1
-k,dev.java4now.web.view.UpPane$1::val$scroll_Pane2,dev.java4now.web.view.UpPane$1,val$scroll_Pane2,dev/java4now/web/view/UpPane.java,154,-1
-n,dev.java4now.web.view.UpPane$1::val$server_lbl5,dev.java4now.web.view.UpPane$1,val$server_lbl5,dev/java4now/web/view/UpPane.java,154,-1
+R8,dev.java4now.web.view.UpPane$1::UpPane$1([Ljavafx/scene/Node;) <init>,dev.java4now.web.view.UpPane$1,UpPane$1,dev/java4now/web/view/UpPane.java,156,0
+S8,dev.java4now.web.view.UpPane$1::layoutChildren()V,dev.java4now.web.view.UpPane$1,layoutChildren,dev/java4now/web/view/UpPane.java,158,0
+g,dev.java4now.web.view.UpPane$1::val$datum_box5,dev.java4now.web.view.UpPane$1,val$datum_box5,dev/java4now/web/view/UpPane.java,156,-1
+i,dev.java4now.web.view.UpPane$1::val$lbl_device2,dev.java4now.web.view.UpPane$1,val$lbl_device2,dev/java4now/web/view/UpPane.java,156,-1
+j,dev.java4now.web.view.UpPane$1::val$lbl_device23,dev.java4now.web.view.UpPane$1,val$lbl_device23,dev/java4now/web/view/UpPane.java,156,-1
+k,dev.java4now.web.view.UpPane$1::val$scroll_Pane6,dev.java4now.web.view.UpPane$1,val$scroll_Pane6,dev/java4now/web/view/UpPane.java,156,-1
+n,dev.java4now.web.view.UpPane$1::val$server_lbl4,dev.java4now.web.view.UpPane$1,val$server_lbl4,dev/java4now/web/view/UpPane.java,156,-1
 UpPane$1$lambda$0$Type,,dev.java4now.web.view.UpPane$1$lambda$0$Type,,dev/java4now/web/view/UpPane.java,202,-1
 g,dev.java4now.web.view.UpPane$1$lambda$0$Type::$$outer_0,dev.java4now.web.view.UpPane$1$lambda$0$Type,$$outer_0,dev/java4now/web/view/UpPane.java,202,-1
 T8,dev.java4now.web.view.UpPane$1$lambda$0$Type::UpPane$1$lambda$0$Type(Ldev/java4now/web/view/UpPane$1;) <init>,dev.java4now.web.view.UpPane$1$lambda$0$Type,UpPane$1$lambda$0$Type,dev/java4now/web/view/UpPane.java,202,0
@@ -3492,12 +3492,12 @@ UpPane$lambda$10$Type,,dev.java4now.web.view.UpPane$lambda$10$Type,,dev/java4now
 h9,dev.java4now.web.view.UpPane$lambda$10$Type::UpPane$lambda$10$Type() <init>,dev.java4now.web.view.UpPane$lambda$10$Type,UpPane$lambda$10$Type,dev/java4now/web/view/UpPane.java,359,0
 i9,dev.java4now.web.view.UpPane$lambda$10$Type::accept(Ljava/lang/Object;)V,dev.java4now.web.view.UpPane$lambda$10$Type,accept,dev/java4now/web/view/UpPane.java,359,0
 j9,dev.java4now.web.view.UpPane$lambda$10$Type::andThen(Ljava/util/function/Consumer;)Ljava/util/function/Consumer;,dev.java4now.web.view.UpPane$lambda$10$Type,andThen,com/google/gwt/emul/java/util/function/Consumer.java,31,0
-UpPane$lambda$2$Type,,dev.java4now.web.view.UpPane$lambda$2$Type,,dev/java4now/web/view/UpPane.java,146,-1
-k9,dev.java4now.web.view.UpPane$lambda$2$Type::UpPane$lambda$2$Type() <init>,dev.java4now.web.view.UpPane$lambda$2$Type,UpPane$lambda$2$Type,dev/java4now/web/view/UpPane.java,146,0
-l9,dev.java4now.web.view.UpPane$lambda$2$Type::changed(Ljavafx/beans/value/ObservableValue;Ljava/lang/Object;Ljava/lang/Object;)V,dev.java4now.web.view.UpPane$lambda$2$Type,changed,dev/java4now/web/view/UpPane.java,146,0
-UpPane$lambda$3$Type,,dev.java4now.web.view.UpPane$lambda$3$Type,,dev/java4now/web/view/UpPane.java,147,-1
-m9,dev.java4now.web.view.UpPane$lambda$3$Type::UpPane$lambda$3$Type() <init>,dev.java4now.web.view.UpPane$lambda$3$Type,UpPane$lambda$3$Type,dev/java4now/web/view/UpPane.java,147,0
-n9,dev.java4now.web.view.UpPane$lambda$3$Type::changed(Ljavafx/beans/value/ObservableValue;Ljava/lang/Object;Ljava/lang/Object;)V,dev.java4now.web.view.UpPane$lambda$3$Type,changed,dev/java4now/web/view/UpPane.java,147,0
+UpPane$lambda$2$Type,,dev.java4now.web.view.UpPane$lambda$2$Type,,dev/java4now/web/view/UpPane.java,148,-1
+k9,dev.java4now.web.view.UpPane$lambda$2$Type::UpPane$lambda$2$Type() <init>,dev.java4now.web.view.UpPane$lambda$2$Type,UpPane$lambda$2$Type,dev/java4now/web/view/UpPane.java,148,0
+l9,dev.java4now.web.view.UpPane$lambda$2$Type::changed(Ljavafx/beans/value/ObservableValue;Ljava/lang/Object;Ljava/lang/Object;)V,dev.java4now.web.view.UpPane$lambda$2$Type,changed,dev/java4now/web/view/UpPane.java,148,0
+UpPane$lambda$3$Type,,dev.java4now.web.view.UpPane$lambda$3$Type,,dev/java4now/web/view/UpPane.java,149,-1
+m9,dev.java4now.web.view.UpPane$lambda$3$Type::UpPane$lambda$3$Type() <init>,dev.java4now.web.view.UpPane$lambda$3$Type,UpPane$lambda$3$Type,dev/java4now/web/view/UpPane.java,149,0
+n9,dev.java4now.web.view.UpPane$lambda$3$Type::changed(Ljavafx/beans/value/ObservableValue;Ljava/lang/Object;Ljava/lang/Object;)V,dev.java4now.web.view.UpPane$lambda$3$Type,changed,dev/java4now/web/view/UpPane.java,149,0
 UpPane$lambda$4$Type,,dev.java4now.web.view.UpPane$lambda$4$Type,,dev/java4now/web/view/UpPane.java,245,-1
 o9,dev.java4now.web.view.UpPane$lambda$4$Type::UpPane$lambda$4$Type() <init>,dev.java4now.web.view.UpPane$lambda$4$Type,UpPane$lambda$4$Type,dev/java4now/web/view/UpPane.java,245,0
 p9,dev.java4now.web.view.UpPane$lambda$4$Type::handle(Ljavafx/event/Event;)V,dev.java4now.web.view.UpPane$lambda$4$Type,handle,dev/java4now/web/view/UpPane.java,245,0
