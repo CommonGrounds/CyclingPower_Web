@@ -385,7 +385,7 @@ body {
 }
 
 .my_button {
-    background-color: rgba(3, 137, 37, 1) !important;
+    background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
     border-radius: 8px;
@@ -396,7 +396,7 @@ body {
 .my_button:hover {
   color: black;
   border-width: 1;
-  background-color: rgba(3, 137, 37, 0.1) !important;
+  background-color: rgba(204, 255, 204, 0.1) !important;
   border-color: #939393;
 }
 
@@ -407,7 +407,7 @@ body {
  */
 .my_button:active {
      border-width:1;
-     background-color:rgba(3, 137, 37, 1) !important;
+     background-color:rgba(204, 255, 204, 1) !important;
      color:Black;
      box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
@@ -537,6 +537,7 @@ input[type=password]{
     font-weight: bold;
     width: 100%; /* Ensure labels take full width */
     box-sizing: border-box; /* Include padding in width */
+    cursor: pointer;
 }
 
 .simple_list_selected{
@@ -632,7 +633,7 @@ input[type=password]{
 .custom-menu-button {
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
-    background-color: rgba(3, 137, 37, 1) !important;
+    background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
     border-radius: 4px;
@@ -647,7 +648,7 @@ input[type=password]{
 .custom-menu-button:hover {
   color: black;
   border-width: 1;
-  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(204, 255, 204, 1) !important;
   border-color: #939393;
 }
 
@@ -655,7 +656,7 @@ input[type=password]{
 .custom-menu-small-button {
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
-    background-color: rgba(3, 137, 37, 1) !important;
+    background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
     border-radius: 4px;
@@ -670,7 +671,7 @@ input[type=password]{
 .custom-menu-small-button:hover {
   color: black;
   border-width: 1;
-  background-color: rgba(3, 137, 37, 0.1) !important;
+  background-color: rgba(204, 255, 204, 0.1) !important;
   border-color: #939393;
 }
 
