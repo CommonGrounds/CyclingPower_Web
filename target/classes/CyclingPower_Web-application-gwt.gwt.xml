@@ -93,6 +93,10 @@
   <inherits name="org.gwtproject.nio.GwtNioSupport"/>
   <source path="service"/>
   <source path="gwt_service"/>
+  <source path="dev/webfx/extras/fonticons"/>
+  <source path="dev/webfx/extras/fonticons/feather"/>
+  <resource path="dev/webfx/kit/css/fonts/feather"/>
+  <public path="" includes="dev/webfx/kit/css/fonts/feather/"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/gwtj2cl/html"/>
   <source path="dev/webfx/kit/registry/javafxcontrols"/>

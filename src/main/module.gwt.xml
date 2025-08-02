@@ -115,6 +115,12 @@
     <source path="service"/>
     <!--==================================< service_gwt >===================================-->
     <source path="gwt_service"/>
+    <!--=============================< webfx-extras-fonticons >=============================-->
+    <source path="dev/webfx/extras/fonticons"/>
+    <!--=========================< webfx-extras-fonticons-feather >=========================-->
+    <source path="dev/webfx/extras/fonticons/feather"/>
+    <resource path="dev/webfx/kit/css/fonts/feather"/>
+    <public path="" includes="dev/webfx/kit/css/fonts/feather/"/>
     <!--======================< webfx-kit-javafxcontrols-peers-base >=======================-->
     <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
     <!--====================< webfx-kit-javafxcontrols-peers-gwt-j2cl >=====================-->

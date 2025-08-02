@@ -294,6 +294,17 @@ iframe {
     border: none;
 }
 
+/*===== webfx-extras-fonticons-feather-web@main.css from webfx-extras-fonticons-feather =====*/
+
+@font-face {
+    font-family: 'Feather';
+    src: url("./fonts/feather/feather.woff") format("woff");
+    font-weight: 100 900;
+}
+
+.font-feather {
+    font-family: 'Feather';
+}
 /*===== web@main.css from CyclingPower_Web-application =====*/
 
 /***** GWT theme CLEAN *****/
@@ -326,12 +337,13 @@ fx-button > fx-background {
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     font-size: 32px;
     color: brown;
+    cursor: pointer;
     background-color: transparent;
 /*    padding: 5px;   */
 }
 
 .font-icon-button:hover {
-   border: 2px solid Wheat;
+   border: 2px solid transparent;
 }
 
 .font-icon-button[disabled]:hover {
@@ -343,12 +355,13 @@ fx-button > fx-background {
   src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
   font-size: 48px;
   color: blue;
+  cursor: pointer;
   background-color: transparent;
 /*    padding: 5px;   */
 }
 
 .font-icon-button_big:hover {
-   border: 2px solid Wheat;
+   border: 2px solid transparent;
 }
 
 .font-chevron-button {
@@ -556,8 +569,6 @@ input[type=password]{
 
 /* Style for the icon */
 .list-icon {
-    font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     font-size: 16px;
     color: blue;
 }
@@ -657,7 +668,7 @@ input[type=password]{
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     background-color: rgba(204, 255, 204, 1) !important;
-    color: white;
+    color: blue;
     border:2px solid Wheat;
     border-radius: 4px;
     font-size: 1.6vmin;
