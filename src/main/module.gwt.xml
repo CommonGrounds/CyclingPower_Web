@@ -93,6 +93,8 @@
     <source path="dev/java4now/web/websocket"/>
     <resource path="dev/java4now/web/fonts"/>
     <public path="" includes="dev/java4now/web/fonts/"/>
+    <resource path="dev/java4now/web/mm_api_symbols"/>
+    <public path="" includes="dev/java4now/web/mm_api_symbols/"/>
     <resource path="dev/java4now/web/pics"/>
     <public path="" includes="dev/java4now/web/pics/"/>
     <!--================================< elemental2-core >=================================-->
