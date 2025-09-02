@@ -48,6 +48,13 @@
 }
 
 /* Mocking some basic JavaFX behaviours */
+
+html, body {
+    height: 100dvh;
+    /* Also disabling overscroll (prevents SpaceFX ship drag to work when coming back to PWA on iOS) */
+    overscroll-behavior: none;
+}
+
 body {
     overflow: hidden; /* Disabling browser horizontal and vertical scroll bars */
     margin: 0; /* Removing the default margin around the body */
@@ -389,6 +396,11 @@ fx-button > fx-background {
       border-radius: none;
 }
 /******************************************************/
+
+.label_icon {
+    color: red;
+    font-size: 48px;
+}
 
 @font-face {
     font-family: 'Feather';
