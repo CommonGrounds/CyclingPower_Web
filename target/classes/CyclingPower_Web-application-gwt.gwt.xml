@@ -7,6 +7,7 @@
   <set-property name="gwt.logging.consoleHandler" value="ENABLED"/>
   <set-configuration-property name="compiler.embedSourceMaps" value="true"/>
   <set-configuration-property name="includeSourceMapUrl" value="symbolMaps/__HASH___sourceMap__FRAGMENT__.json"/>
+  <set-configuration-property name="installCode" value="true"/>
   <source path="com/sun/javafx"/>
   <source path="com/sun/javafx/binding"/>
   <source path="com/sun/javafx/collections"/>
@@ -25,8 +26,6 @@
   <source path="com/sun/javafx/scene/control/skin"/>
   <source path="javafx/scene/control"/>
   <source path="javafx/scene/control/skin"/>
-  <resource path="javafx/scene/control/skin/checkbox"/>
-  <public path="" includes="javafx/scene/control/skin/checkbox/"/>
   <source path="com/sun/javafx/application"/>
   <source path="com/sun/javafx/cursor"/>
   <source path="com/sun/javafx/geom"/>
@@ -95,6 +94,10 @@
   <inherits name="org.gwtproject.nio.GwtNioSupport"/>
   <source path="service"/>
   <source path="gwt_service"/>
+  <source path="dev/webfx/extras/filepicker"/>
+  <source path="dev/webfx/extras/filepicker/spi"/>
+  <source path="dev/webfx/extras/filepicker/spi/impl"/>
+  <source path="dev/webfx/extras/filepicker/spi/impl/gwtj2cl"/>
   <source path="dev/webfx/extras/fonticons"/>
   <source path="dev/webfx/extras/fonticons/feather"/>
   <resource path="dev/webfx/kit/css/fonts/feather"/>
@@ -158,6 +161,9 @@
   <source path="dev/webfx/platform/streams"/>
   <source path="dev/webfx/platform/fetch/spi/impl/gwtj2cl"/>
   <source path="dev/webfx/platform/streams/spi/impl/gwtj2cl"/>
+  <source path="dev/webfx/platform/file"/>
+  <source path="dev/webfx/platform/file/spi"/>
+  <source path="dev/webfx/platform/file/spi/impl/gwtj2cl"/>
   <super-source path="" includes="java/io/"/>
   <super-source path="" includes="java/lang/ref/"/>
   <super-source path="" includes="java/net/"/>
@@ -199,6 +205,8 @@
   <source path="dev/webfx/platform/util/stopwatch"/>
   <source path="dev/webfx/platform/util/tuples"/>
   <source path="dev/webfx/platform/util/uuid"/>
+  <source path="dev/webfx/platform/util/gwtj2cl"/>
+  <source path="dev/webfx/platform/util/gwtj2cl/async"/>
   <source path="dev/webfx/platform/util/time"/>
   <source path="dev/webfx/platform/windowlocation"/>
   <source path="dev/webfx/platform/windowlocation/spi"/>

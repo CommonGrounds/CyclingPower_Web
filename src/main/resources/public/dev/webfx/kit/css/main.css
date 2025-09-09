@@ -383,6 +383,15 @@ iframe {
 .font-feather {
     font-family: 'Feather';
 }
+/*===== webfx-extras-filepicker-web@main.css from webfx-extras-filepicker-gwt-j2cl =====*/
+
+/* We dont want any background or border for the FilePicker button */
+
+.file-picker fx-button {
+    --fx-background-color: transparent;
+    --fx-border-style: none;
+}
+
 /*===== web@main.css from CyclingPower_Web-application =====*/
 
 /***** GWT theme CLEAN *****/
@@ -493,7 +502,7 @@ body {
 .my_button:hover {
   color: black;
   border-width: 1;
-  background-color: rgba(204, 255, 204, 0.1) !important;
+  background-color: rgba(204, 255, 204, 1) !important;
   border-color: #939393;
 }
 
