@@ -358,8 +358,8 @@ Ah,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_CanvasChartPa
 Bh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_CanvasChartPane$2methodref$getTemperature$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_CanvasChartPane$2methodref$getTemperature$Type_2_classLit,dev/java4now/web/graph/CanvasChartPane.java,243,-1
 Ch,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_CanvasChartPane$3methodref$getTemperature$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_CanvasChartPane$3methodref$getTemperature$Type_2_classLit,dev/java4now/web/graph/CanvasChartPane.java,251,-1
 Dh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_CanvasChartPane_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_CanvasChartPane_2_classLit,dev/java4now/web/graph/CanvasChartPane.java,31,-1
-Eh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_GraphWind$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_GraphWind$1_2_classLit,dev/java4now/web/graph/GraphWind.java,95,-1
-Fh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_GraphWind$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_GraphWind$lambda$0$Type_2_classLit,dev/java4now/web/graph/GraphWind.java,87,-1
+Eh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_GraphWind$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_GraphWind$1_2_classLit,dev/java4now/web/graph/GraphWind.java,92,-1
+Fh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_graph_GraphWind$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_graph_GraphWind$lambda$0$Type_2_classLit,dev/java4now/web/graph/GraphWind.java,84,-1
 Gh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_http_UploadImage$lambda$0$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_http_UploadImage$lambda$0$Type_2_classLit,dev/java4now/web/http/UploadImage.java,41,-1
 Hh,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_http_UploadImage$lambda$1$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_http_UploadImage$lambda$1$Type_2_classLit,dev/java4now/web/http/UploadImage.java,45,-1
 Ih,com.google.gwt.lang.ClassLiteralHolder::Ldev_java4now_web_http_UploadImage$lambda$2$Type_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ldev_java4now_web_http_UploadImage$lambda$2$Type_2_classLit,dev/java4now/web/http/UploadImage.java,49,-1
@@ -3247,23 +3247,23 @@ o7,dev.java4now.web.graph.GraphWind::bike_img,dev.java4now.web.graph.GraphWind,b
 p7,dev.java4now.web.graph.GraphWind::bike_img_final,dev.java4now.web.graph.GraphWind,bike_img_final,dev/java4now/web/graph/GraphWind.java,53,-1
 q7,dev.java4now.web.graph.GraphWind::bike_img_small,dev.java4now.web.graph.GraphWind,bike_img_small,dev/java4now/web/graph/GraphWind.java,52,-1
 r7,dev.java4now.web.graph.GraphWind::circle,dev.java4now.web.graph.GraphWind,circle,dev/java4now/web/graph/GraphWind.java,45,-1
-z7,dev.java4now.web.graph.GraphWind::create(DDLjavafx/scene/layout/Pane;)V,dev.java4now.web.graph.GraphWind,create,dev/java4now/web/graph/GraphWind.java,61,0
-A7,dev.java4now.web.graph.GraphWind::draw_wind(DD)V,dev.java4now.web.graph.GraphWind,draw_wind,dev/java4now/web/graph/GraphWind.java,120,0
-B7,dev.java4now.web.graph.GraphWind::handle_slider_wind(Ljavafx/scene/control/Slider;Ljava/lang/Number;Ljavafx/scene/canvas/Canvas;)V,dev.java4now.web.graph.GraphWind,handle_slider_wind,dev/java4now/web/graph/GraphWind.java,185,0
+z7,dev.java4now.web.graph.GraphWind::create(DDLjavafx/scene/layout/Pane;)V,dev.java4now.web.graph.GraphWind,create,dev/java4now/web/graph/GraphWind.java,58,0
+A7,dev.java4now.web.graph.GraphWind::draw_wind(DD)V,dev.java4now.web.graph.GraphWind,draw_wind,dev/java4now/web/graph/GraphWind.java,122,0
+B7,dev.java4now.web.graph.GraphWind::handle_slider_wind(Ljavafx/scene/control/Slider;Ljava/lang/Number;Ljavafx/scene/canvas/Canvas;)V,dev.java4now.web.graph.GraphWind,handle_slider_wind,dev/java4now/web/graph/GraphWind.java,187,0
 s7,dev.java4now.web.graph.GraphWind::imageView,dev.java4now.web.graph.GraphWind,imageView,dev/java4now/web/graph/GraphWind.java,54,-1
 t7,dev.java4now.web.graph.GraphWind::is_visible,dev.java4now.web.graph.GraphWind,is_visible,dev/java4now/web/graph/GraphWind.java,49,-1
 u7,dev.java4now.web.graph.GraphWind::pane,dev.java4now.web.graph.GraphWind,pane,dev/java4now/web/graph/GraphWind.java,48,-1
 v7,dev.java4now.web.graph.GraphWind::rotate,dev.java4now.web.graph.GraphWind,rotate,dev/java4now/web/graph/GraphWind.java,46,-1
 w7,dev.java4now.web.graph.GraphWind::wind_arc,dev.java4now.web.graph.GraphWind,wind_arc,dev/java4now/web/graph/GraphWind.java,44,-1
 x7,dev.java4now.web.graph.GraphWind::wind_rotation,dev.java4now.web.graph.GraphWind,wind_rotation,dev/java4now/web/graph/GraphWind.java,55,-1
-GraphWind$1,,dev.java4now.web.graph.GraphWind$1,,dev/java4now/web/graph/GraphWind.java,95,-1
-C7,dev.java4now.web.graph.GraphWind$1::GraphWind$1([Ljavafx/scene/Node;) <init>,dev.java4now.web.graph.GraphWind$1,GraphWind$1,dev/java4now/web/graph/GraphWind.java,95,0
-D7,dev.java4now.web.graph.GraphWind$1::layoutChildren()V,dev.java4now.web.graph.GraphWind$1,layoutChildren,dev/java4now/web/graph/GraphWind.java,97,0
-g,dev.java4now.web.graph.GraphWind$1::val$height4,dev.java4now.web.graph.GraphWind$1,val$height4,dev/java4now/web/graph/GraphWind.java,95,-1
-i,dev.java4now.web.graph.GraphWind$1::val$width2,dev.java4now.web.graph.GraphWind$1,val$width2,dev/java4now/web/graph/GraphWind.java,95,-1
-GraphWind$lambda$0$Type,,dev.java4now.web.graph.GraphWind$lambda$0$Type,,dev/java4now/web/graph/GraphWind.java,87,-1
-E7,dev.java4now.web.graph.GraphWind$lambda$0$Type::GraphWind$lambda$0$Type() <init>,dev.java4now.web.graph.GraphWind$lambda$0$Type,GraphWind$lambda$0$Type,dev/java4now/web/graph/GraphWind.java,87,0
-F7,dev.java4now.web.graph.GraphWind$lambda$0$Type::run()V,dev.java4now.web.graph.GraphWind$lambda$0$Type,run,dev/java4now/web/graph/GraphWind.java,87,0
+GraphWind$1,,dev.java4now.web.graph.GraphWind$1,,dev/java4now/web/graph/GraphWind.java,92,-1
+C7,dev.java4now.web.graph.GraphWind$1::GraphWind$1([Ljavafx/scene/Node;) <init>,dev.java4now.web.graph.GraphWind$1,GraphWind$1,dev/java4now/web/graph/GraphWind.java,92,0
+D7,dev.java4now.web.graph.GraphWind$1::layoutChildren()V,dev.java4now.web.graph.GraphWind$1,layoutChildren,dev/java4now/web/graph/GraphWind.java,94,0
+g,dev.java4now.web.graph.GraphWind$1::val$height4,dev.java4now.web.graph.GraphWind$1,val$height4,dev/java4now/web/graph/GraphWind.java,92,-1
+i,dev.java4now.web.graph.GraphWind$1::val$width2,dev.java4now.web.graph.GraphWind$1,val$width2,dev/java4now/web/graph/GraphWind.java,92,-1
+GraphWind$lambda$0$Type,,dev.java4now.web.graph.GraphWind$lambda$0$Type,,dev/java4now/web/graph/GraphWind.java,84,-1
+E7,dev.java4now.web.graph.GraphWind$lambda$0$Type::GraphWind$lambda$0$Type() <init>,dev.java4now.web.graph.GraphWind$lambda$0$Type,GraphWind$lambda$0$Type,dev/java4now/web/graph/GraphWind.java,84,0
+F7,dev.java4now.web.graph.GraphWind$lambda$0$Type::run()V,dev.java4now.web.graph.GraphWind$lambda$0$Type,run,dev/java4now/web/graph/GraphWind.java,84,0
 G7,dev.java4now.web.http.SimpleBase64::encode(Ljava/lang/String;)Ljava/lang/String;,dev.java4now.web.http.SimpleBase64,encode,dev/java4now/web/http/SimpleBase64.java,6,0
 H7,dev.java4now.web.http.UploadImage::uploadBlob(Ljava/lang/String;Ldev/webfx/platform/blob/Blob;Ljava/lang/String;I)V,dev.java4now.web.http.UploadImage,uploadBlob,dev/java4now/web/http/UploadImage.java,19,0
 UploadImage$lambda$0$Type,,dev.java4now.web.http.UploadImage$lambda$0$Type,,dev/java4now/web/http/UploadImage.java,41,-1
