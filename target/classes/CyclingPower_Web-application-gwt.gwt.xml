@@ -26,6 +26,7 @@
   <source path="com/sun/javafx/scene/control/skin"/>
   <source path="javafx/scene/control"/>
   <source path="javafx/scene/control/skin"/>
+  <source path="javafx/scene/chart"/>
   <source path="com/sun/javafx/application"/>
   <source path="com/sun/javafx/cursor"/>
   <source path="com/sun/javafx/geom"/>
@@ -67,6 +68,7 @@
   <source path="javafx/scene/web"/>
   <source path="dev/java4now/web"/>
   <source path="dev/java4now/web/animation"/>
+  <source path="dev/java4now/web/charts"/>
   <source path="dev/java4now/web/custom_ui"/>
   <source path="dev/java4now/web/generator"/>
   <source path="dev/java4now/web/graph"/>
@@ -84,6 +86,12 @@
   <public path="" includes="dev/java4now/web/mm_api_symbols/"/>
   <resource path="dev/java4now/web/pics"/>
   <public path="" includes="dev/java4now/web/pics/"/>
+  <inherits name="org.pepstock.charba.Charba"/>
+  <source path="org/pepstock/charba/client"/>
+  <source path="org/pepstock/charba/client/callbacks"/>
+  <source path="org/pepstock/charba/client/configuration"/>
+  <source path="org/pepstock/charba/client/data"/>
+  <source path="org/pepstock/charba/client/enums"/>
   <inherits name="elemental2.core.Core"/>
   <inherits name="elemental2.dom.Dom"/>
   <inherits name="elemental2.media.Media"/>
@@ -94,6 +102,9 @@
   <inherits name="org.gwtproject.nio.GwtNioSupport"/>
   <source path="service"/>
   <source path="gwt_service"/>
+  <source path="dev/webfx/extras/cell/collator"/>
+  <source path="dev/webfx/extras/cell/renderer"/>
+  <source path="dev/webfx/extras/cell/rowstyle"/>
   <source path="dev/webfx/extras/filepicker"/>
   <source path="dev/webfx/extras/filepicker/spi"/>
   <source path="dev/webfx/extras/filepicker/spi/impl"/>
@@ -102,6 +113,27 @@
   <source path="dev/webfx/extras/fonticons/feather"/>
   <resource path="dev/webfx/kit/css/fonts/feather"/>
   <public path="" includes="dev/webfx/kit/css/fonts/feather/"/>
+  <source path="dev/webfx/extras/imagestore"/>
+  <source path="dev/webfx/extras/label"/>
+  <source path="dev/webfx/extras/panes"/>
+  <source path="dev/webfx/extras/panes/transitions"/>
+  <source path="dev/webfx/extras/type"/>
+  <source path="dev/webfx/extras/util/animation"/>
+  <source path="dev/webfx/extras/util/background"/>
+  <source path="dev/webfx/extras/util/control"/>
+  <source path="dev/webfx/extras/util/layout"/>
+  <source path="dev/webfx/extras/util/paint"/>
+  <source path="dev/webfx/extras/visual"/>
+  <source path="dev/webfx/extras/visual/impl"/>
+  <source path="dev/webfx/extras/visual/controls/charts"/>
+  <source path="dev/webfx/extras/visual/controls/charts/peers/base"/>
+  <source path="dev/webfx/extras/visual/controls/charts/peers/gwt/charba"/>
+  <source path="dev/webfx/extras/visual/controls/charts/registry"/>
+  <source path="dev/webfx/extras/visual/controls"/>
+  <source path="dev/webfx/extras/visual/controls/peers/base"/>
+  <source path="dev/webfx/extras/webtext"/>
+  <source path="dev/webfx/extras/webtext/peers/base"/>
+  <source path="dev/webfx/extras/webtext/util"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/gwtj2cl/html"/>
   <source path="dev/webfx/kit/registry/javafxcontrols"/>

@@ -392,6 +392,21 @@ iframe {
     --fx-border-style: none;
 }
 
+/*===== webfx-extras-ckeditor-web@main.css from webfx-extras-webtext-peers-gwt-j2cl =====*/
+
+/* Applying same user-select setting as fx-text to fx-htmltext */
+fx-htmltext {
+    color: var(--fx-text-fill);
+    -webkit-user-select: var(--text-user-select);
+    -moz-user-select: var(--text-user-select);
+    -ms-user-select: var(--text-user-select);
+    user-select: var(--text-user-select);
+}
+
+/* Hiding the warning message from CKEditor 4.22.1 */
+.cke_notifications_area {
+    display: none;
+}
 /*===== web@main.css from CyclingPower_Web-application =====*/
 
 /***** GWT theme CLEAN *****/
@@ -824,17 +839,30 @@ input[type=password]{
 }
 
 /*------------- tab pane --------------*/
-/*
 .tab-pane {
 	background-color: transparent;
 }
 
-.tab-header-area .tab-header-background  {
-    background-color:blue !important;
-    min-height: 26px !important;
-    max-height: 26px !important;
+.tab-header-area {
+    display: none !important;
+    height: 0px !important;
+    width: 0px !important;
+    min-height: 0px !important;
+    max-height: 0px !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    top: -1000px !important;
+    left: -1000px !important;
 }
 
+.tab-content-area {
+    border-top: none !important;
+    margin-top: 0px !important;
+    padding: 0px;
+}
+
+/*
 .tab-pane .tab-label {
     font-size: 1.5vmin;
 	color: black;
