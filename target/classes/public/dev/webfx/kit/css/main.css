@@ -838,7 +838,7 @@ input[type=password]{
   background-color: green;  /* progress color */
 }
 
-/*------------- tab pane --------------*/
+/*------------- tab pane primena za chart --------------*/
 .tab-pane {
 	background-color: transparent;
 }
@@ -852,8 +852,8 @@ input[type=password]{
     visibility: hidden !important;
     opacity: 0 !important;
     position: absolute !important;
-    top: -1000px !important;
-    left: -1000px !important;
+    top: -1000px !important;         /* Ensure it's off-screen */
+    left: -1000px !important;        /* Ensure it's off-screen */
 }
 
 .tab-content-area {
