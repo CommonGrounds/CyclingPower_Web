@@ -138,7 +138,7 @@
   <source path="dev/webfx/extras/webtext/registry"/>
   <source path="dev/webfx/extras/webtext/util"/>
   <source path="dev/webfx/kit/mapper/peers/javafxcontrols/base"/>
-  <source path="dev/webfx/kit/mapper/peers/javafxcontrols/gwtj2cl/html"/>
+  <source path="dev/webfx/kit/mapper/peers/javafxcontrols/elemental2/html"/>
   <source path="dev/webfx/kit/registry/javafxcontrols"/>
   <source path="dev/webfx/kit/launcher/spi/impl/elemental2"/>
   <source path="dev/webfx/kit/mapper/spi/impl/elemental2"/>
@@ -160,6 +160,9 @@
   <source path="dev/webfx/kit/launcher"/>
   <source path="dev/webfx/kit/launcher/spi"/>
   <source path="dev/webfx/kit/launcher/spi/impl/base"/>
+  <source path="dev/webfx/kit/perfectscrollbar/elemental2"/>
+  <resource path="dev/webfx/kit/perfectscrollbar"/>
+  <public path="" includes="dev/webfx/kit/perfectscrollbar/"/>
   <source path="dev/webfx/kit/platform/audio/spi/impl/openjfxweb"/>
   <source path="dev/webfx/kit/util/properties"/>
   <source path="dev/webfx/kit/util/properties/conversion"/>

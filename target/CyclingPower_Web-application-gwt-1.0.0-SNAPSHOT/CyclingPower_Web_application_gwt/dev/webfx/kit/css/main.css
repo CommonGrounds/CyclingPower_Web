@@ -433,20 +433,35 @@ fx-button > fx-background {
 }
 
 @font-face {
+    font-family: 'FontAwesomeSolid';
+    src: url('/dev/java4now/web/fonts/fa-solid-900.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-.font-icon-button {
+.font-icon-button_fe {
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+}
+
+
+.font-icon-button_fa {
+    font-family: 'FontAwesomeSolid';
+    src: url('/dev/java4now/web/fonts/fa-solid-900.woff') format('woff');
+}
+
+.font-icon-button {
     font-size: 32px;
-    color: brown;
+    color: brown !important;
     cursor: pointer;
     background-color: transparent;
-/*    padding: 5px;   */
 }
 
 .font-icon-button:hover {
@@ -507,7 +522,7 @@ body {
 
 .my_button {
     background-color: rgba(204, 255, 204, 1) !important;
-    color: white;
+    color: black !important;
     border:2px solid Wheat;
     border-radius: 8px;
     font-size: 1.7vmin;
@@ -516,9 +531,9 @@ body {
 
 .my_button:hover {
   color: black;
-  border-width: 1;
+  border:3px solid Grey !important;
   background-color: rgba(204, 255, 204, 1) !important;
-  border-color: #939393;
+/*  border-color: #939393; */
 }
 
 /* nema uticaja na html
@@ -766,7 +781,7 @@ input[type=password]{
 
 .custom-menu-button:hover {
   color: black;
-  border-width: 1;
+  border-width: 1px;
   background-color: rgba(204, 255, 204, 1) !important;
   border-color: #939393;
 }
@@ -789,7 +804,7 @@ input[type=password]{
 
 .custom-menu-small-button:hover {
   color: black;
-  border-width: 1;
+  border-width: 1px;
   background-color: rgba(204, 255, 204, 0.1) !important;
   border-color: #939393;
 }
