@@ -446,6 +446,19 @@ fx-button > fx-background {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'BootstrapIcons';
+    src: url('/dev/java4now/web/fonts/bootstrap-icons.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Mora i font-face za svaki font */
+.font-icon-bootstrap {
+    font-family: 'BootstrapIcons';
+    src: url('/dev/java4now/web/fonts/bootstrap-icons.woff') format('woff');
+}
+
 .font-icon-button_fe {
     font-family: 'Feather';
     src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
