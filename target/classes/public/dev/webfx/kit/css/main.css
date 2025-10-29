@@ -449,25 +449,40 @@ fx-button > fx-background {
 @font-face {
     font-family: 'BootstrapIcons';
     src: url('/dev/java4now/web/fonts/bootstrap-icons.woff') format('woff');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 }
 
 /* Mora i font-face za svaki font */
 .font-icon-bootstrap {
+    display: inline-block;
     font-family: 'BootstrapIcons';
-    src: url('/dev/java4now/web/fonts/bootstrap-icons.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .font-icon-button_fe {
+    display: inline-block;
     font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
 .font-icon-button_fa {
+    display: inline-block;
     font-family: 'FontAwesomeSolid';
-    src: url('/dev/java4now/web/fonts/fa-solid-900.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .font-icon-button {
