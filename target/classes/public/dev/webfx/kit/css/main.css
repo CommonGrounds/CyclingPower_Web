@@ -968,6 +968,10 @@ input[type=password]{
         font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
     }
 
+    .custom-small-menu-item .label {
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+
     .custom-menu-small-button {
         font-size: clamp(14px, 3vw, 16px); /* Larger base size for small screens */
     }
