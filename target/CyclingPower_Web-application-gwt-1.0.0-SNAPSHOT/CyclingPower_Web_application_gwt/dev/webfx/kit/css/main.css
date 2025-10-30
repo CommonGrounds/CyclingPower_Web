@@ -502,7 +502,6 @@ fx-button > fx-background {
 
 .font-icon-button_big {
   font-family: 'Feather';
-  src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
   font-size: 48px;
   color: blue;
   cursor: pointer;
@@ -516,7 +515,6 @@ fx-button > fx-background {
 
 .font-chevron-button {
     font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     font-size: 64px;
     color: red;
     cursor: pointer;
@@ -794,7 +792,6 @@ input[type=password]{
 /*----------------------------*/
 .custom-menu-button {
     font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
@@ -817,7 +814,6 @@ input[type=password]{
 /*----------------------------*/
 .custom-menu-small-button {
     font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     background-color: rgba(204, 255, 204, 1) !important;
     color: blue;
     border:2px solid Wheat;
@@ -849,7 +845,6 @@ input[type=password]{
 
 .custom-menu-item .label {
     font-family: 'Feather';
-    src: url('/dev/java4now/web/fonts/feather.woff') format('woff');
     font-size: 1.8vmin;
     display: flex;
     align-items: center;
