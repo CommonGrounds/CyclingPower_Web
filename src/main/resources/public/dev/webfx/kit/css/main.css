@@ -453,6 +453,13 @@ fx-button > fx-background {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'CarbonIcons';
+    src: url('/dev/java4now/web/fonts/Carbon-Icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Mora i font-face za svaki font */
 .font-icon-bootstrap {
     display: inline-block;
@@ -791,7 +798,7 @@ input[type=password]{
 
 /*----------------------------*/
 .custom-menu-button {
-    font-family: 'Feather';
+    font-family: 'CarbonIcons';
     background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
@@ -813,7 +820,7 @@ input[type=password]{
 
 /*----------------------------*/
 .custom-menu-small-button {
-    font-family: 'Feather';
+    font-family: 'CarbonIcons';
     background-color: rgba(204, 255, 204, 1) !important;
     color: blue;
     border:2px solid Wheat;
@@ -843,8 +850,37 @@ input[type=password]{
     background-color: #d0d0d0;
 }
 
-.custom-menu-item .label {
+.bootstrap-menu-item {
+    display: inline-block;
+    font-family: 'BootstrapIcons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.feather-menu-item {
+    display: inline-block;
     font-family: 'Feather';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-menu-item .label {
+    font-size: 1.8vmin;
+    font-weight: bold;    /* bold utice samo za labelu a ne na icons */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.custom-small-menu-item .label {
+    font-family: 'Feather';
+    font-weight: bold;    /* bold utice samo za labelu a ne na icons */
     font-size: 1.8vmin;
     display: flex;
     align-items: center;
