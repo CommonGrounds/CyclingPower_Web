@@ -851,7 +851,7 @@ input[type=password]{
 }
 
 .bootstrap-menu-item {
-    display: flex;
+    display: inline-block;
     font-family: 'BootstrapIcons';
     font-style: normal;
     font-weight: normal;
