@@ -856,18 +856,18 @@ input[type=password]{
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+/*    -webkit-font-smoothing: antialiased; */
+/*    -moz-osx-font-smoothing: grayscale; */
 }
 
 .feather-menu-item {
     display: inline-block;
-/*    font-family: 'Feather'; */
+    font-family: 'Feather';
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+/*    -webkit-font-smoothing: antialiased; */
+/*    -moz-osx-font-smoothing: grayscale; */
 }
 
 .custom-menu-item .label {
