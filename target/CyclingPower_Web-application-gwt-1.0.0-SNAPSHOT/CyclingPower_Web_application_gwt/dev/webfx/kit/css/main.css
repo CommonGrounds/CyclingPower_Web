@@ -872,7 +872,7 @@ input[type=password]{
 
 .custom-menu-item .label {
     font-size: 1.8vmin;
-    font-weight: bold;    /* bold utice samo za labelu a ne na icons */
+    font-weight: bold;    /* bold utice samo za labelu a ne na text icons */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -880,7 +880,7 @@ input[type=password]{
 
 .custom-small-menu-item .label {
     font-family: 'Feather';
-    font-weight: bold;    /* bold utice samo za labelu a ne na icons */
+    font-weight: bold;    /* bold utice samo za labelu a ne na text icons */
     font-size: 1.8vmin;
     display: flex;
     align-items: center;
