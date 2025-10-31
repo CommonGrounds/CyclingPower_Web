@@ -878,6 +878,14 @@ input[type=password]{
     gap: 5px;
 }
 
+.custom-menu-item .hbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    min-width: 180px;
+}
+
 .custom-small-menu-item .label {
     font-family: 'Feather';
     font-weight: bold;    /* bold utice samo za labelu a ne na text icons */
