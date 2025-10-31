@@ -853,6 +853,7 @@ input[type=password]{
 .bootstrap-menu-item {
     display: inline-block;
     font-family: 'BootstrapIcons';
+    font-size: 1.8vmin;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -863,6 +864,7 @@ input[type=password]{
 .feather-menu-item {
     display: inline-block;
     font-family: 'Feather';
+    font-size: 1.8vmin;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
