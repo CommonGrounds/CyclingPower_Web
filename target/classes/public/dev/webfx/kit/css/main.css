@@ -851,21 +851,21 @@ input[type=password]{
 }
 
 .bootstrap-menu-item {
-/*    display: inline-block; */
+    display: inline-block;
     font-family: 'BootstrapIcons';
     font-style: normal;
     font-weight: normal;
-/*    line-height: 1;  */
+    line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .feather-menu-item {
-/*    display: inline-block; */
+    display: inline-block;
     font-family: 'Feather';
     font-style: normal;
     font-weight: normal;
-/*    line-height: 1;  */
+    line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -990,6 +990,14 @@ input[type=password]{
     }
 
     .custom-menu-button {
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+
+    .bootstrap-menu-item {
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+
+    .feather-menu-item {
         font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
     }
 }
