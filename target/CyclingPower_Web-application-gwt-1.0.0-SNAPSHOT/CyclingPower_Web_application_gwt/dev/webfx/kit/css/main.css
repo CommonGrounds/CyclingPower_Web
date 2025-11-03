@@ -797,12 +797,40 @@ input[type=password]{
 }
 
 /*----------------------------*/
-.custom-menu-button {
+
+.font-icon-label {
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+    font-size: 2.2vmin;    /* 1.8 */
+    font-style: normal;
+    font-weight: normal;   /*  font-weight: 900;  */
+}
+
+.font-icon-label-small {
+    background-color:transparent;
+    color:black;
+    font-family: Verdana, serif;
+    font-size: 1.7vmin;    /* 1.8 */
+    font-style: normal;
+    font-weight: normal;   /*  font-weight: 900;  */
+}
+
+.font-icon-carbon {
+    display: inline-block;
     font-family: 'CarbonIcons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-menu-button {
     background-color: rgba(204, 255, 204, 1) !important;
     color: white;
     border:2px solid Wheat;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 2.2vmin;
 /*    padding: 5px 10px; */
     cursor: pointer;
@@ -818,13 +846,23 @@ input[type=password]{
   border-color: #939393;
 }
 
+/* Hover preko pane_button-a menja boju caret-a */
+.custom-menu-button:hover .caret_sign {
+    color: red;
+}
+
+.caret_sign {
+    color: blue;
+    transition: color 0.2s ease;
+}
+
 /*----------------------------*/
 .custom-menu-small-button {
     font-family: 'CarbonIcons';
     background-color: rgba(204, 255, 204, 1) !important;
     color: blue;
     border:2px solid Wheat;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 1.6vmin;
 /*    padding: 5px 10px; */
     cursor: pointer;
@@ -839,6 +877,17 @@ input[type=password]{
   background-color: rgba(204, 255, 204, 0.1) !important;
   border-color: #939393;
 }
+
+/* Hover preko pane_button-a menja boju caret-a */
+.custom-menu-small-button:hover .small_caret_sign {
+    color: red;
+}
+
+.small_caret_sign {
+    color: blue;
+    transition: color 0.2s ease;
+}
+/*---------------------------*/
 
 .custom-menu-item {
     padding: 0; /* Uklonite padding jer ga sada kontrolišemo kroz container */
@@ -973,6 +1022,14 @@ input[type=password]{
 
     .label{
         font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
+    }
+
+    .font-icon-label-small{
+        font-size: clamp(14px, 3vw, 16px); /* clamp(min, preferred, max) */
+    }
+
+    .font-icon-label{
+         font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
     }
 
     .simple_list {
