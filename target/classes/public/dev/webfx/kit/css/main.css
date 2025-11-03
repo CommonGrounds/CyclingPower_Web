@@ -1032,6 +1032,19 @@ input[type=password]{
          font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
     }
 
+    /* Firefox specific - obe metode za maksimalnu kompatibilnost */
+    @supports (-moz-appearance: none) {
+        .font-icon-label{
+             font-size: clamp(14px, 3vw, 16px); /* clamp(min, preferred, max) */
+        }
+    }
+
+    @-moz-document url-prefix() {
+        .font-icon-label{
+             font-size: clamp(14px, 3vw, 16px); /* clamp(min, preferred, max) */
+        }
+    }
+
     .simple_list {
         font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
     }
