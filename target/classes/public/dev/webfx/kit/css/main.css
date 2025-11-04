@@ -687,13 +687,24 @@ input[type=password]{
     font-weight: bold;   /*  font-weight: 900;  */
 }
 
-.num_label_right_feather{
+/* ------ Label sa grafikom u drugacijoj boji -------*/
+
+.label_graphic{
     background-color:transparent;
-    color:blue;
-    font-family: 'Feather';
     font-size: 3.9vmin;    /* 1.8 */
     font-style: normal;
     font-weight: bold;   /*  font-weight: 900;  */
+}
+
+/* Mora da bude i .text za color ako labela ima grafiku */
+.label_graphic .text{
+    color:black;
+}
+
+/* Font i color samo za grafiku - trebalo bi da moze isto kao za label uz .graphic-text ali ne radi */
+.label_graphic_feather{
+    font-family: 'Feather';
+    color:blue;
 }
 
 /*-----------------------------*/
