@@ -687,6 +687,15 @@ input[type=password]{
     font-weight: bold;   /*  font-weight: 900;  */
 }
 
+.num_label_right_feather{
+    background-color:transparent;
+    color:blue;
+    font-family: 'Feather';
+    font-size: 3.9vmin;    /* 1.8 */
+    font-style: normal;
+    font-weight: bold;   /*  font-weight: 900;  */
+}
+
 /*-----------------------------*/
 .simple_list_container {
     width: 100%; /* Ensure container takes parent width */
@@ -944,6 +953,7 @@ input[type=password]{
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
 .context-menu {
