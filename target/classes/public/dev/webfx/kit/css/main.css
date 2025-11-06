@@ -997,6 +997,25 @@ input[type=password]{
   background-color: green;  /* progress color */
 }
 
+/*------------- Progress Indicator --------------*/
+
+/* Opciono: promeni boju pozadine celog ProgressIndicator */
+.custom-progress-indicator {
+    -webkit-appearance: none;
+ /*   background-color: #ff5733 !important; */ /* Narandžasta pozadina */
+}
+
+/* Promeni boju svih segmenata (pokretni deo) */
+.custom-progress-indicator .segment {
+    border: 2px solid green !important; /* green boja za spinning indikator border */
+    background-color: red !important;   /* red boja za unutrasnji pokretni deo */
+}
+
+/* Opciono: promeni border oko spinnera */
+.custom-progress-indicator .spinner {
+/*    border: 4px solid #f3f3f3 !important; */ /* Svetlo sivi okvir */
+}
+
 /*------------- tab pane primena za chart --------------*/
 .tab-pane {
 	background-color: transparent;
