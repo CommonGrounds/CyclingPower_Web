@@ -1002,6 +1002,11 @@ input[type=password]{
 /* Opciono: promeni boju pozadine celog ProgressIndicator */
 .custom-progress-indicator {
     -webkit-appearance: none;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
  /*   background-color: #ff5733 !important; */ /* Narandžasta pozadina */
 }
 
@@ -1011,6 +1016,10 @@ input[type=password]{
     background-color: red !important;   /* red boja za unutrasnji pokretni deo */
     /* Osiguraj da svi segmenti budu vidljivi */
     will-change: transform, opacity;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
 }
 
 /* Opciono: promeni border oko spinnera */
