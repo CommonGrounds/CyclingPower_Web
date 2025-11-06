@@ -1025,8 +1025,8 @@ input[type=password]{
     }
 
     .custom-progress-indicator fx-indeterminatespinner {
-        animation: spinner-rotate 2s linear infinite;
-        -webkit-animation: spinner-rotate 2s linear infinite;
+        animation: spinner-rotate 4s linear infinite;
+        -webkit-animation: spinner-rotate 4s linear infinite;
     }
 
     /* Onemogući default WebFX animaciju */
