@@ -1031,6 +1031,16 @@ input[type=password]{
     perspective: 1000;
 }
 
+/* Dodajte eksplicitnu animaciju ako je potrebno */
+@keyframes spinner-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.custom-progress-indicator fx-indeterminatespinner {
+    animation: spinner-rotate 2s linear infinite;
+}
+
 /*------------- tab pane primena za chart --------------*/
 .tab-pane {
 	background-color: transparent;
