@@ -918,7 +918,7 @@ input[type=password]{
 .custom-slider {
   -webkit-appearance: none;
   width: 50%;
-  height: 10px;
+  height: 4px;
   background: white;
   outline: none;
   border: 3px solid darkgreen;
