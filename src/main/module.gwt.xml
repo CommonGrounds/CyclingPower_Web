@@ -82,6 +82,7 @@
     <source path="javafx/scene/web"/>
     <!--==========================< CyclingPower_Web-application >==========================-->
     <source path="dev/java4now/web"/>
+    <source path="dev/java4now/web/CityLocation"/>
     <source path="dev/java4now/web/animation"/>
     <source path="dev/java4now/web/charts"/>
     <source path="dev/java4now/web/custom_ui"/>
@@ -95,6 +96,8 @@
     <source path="dev/java4now/web/util"/>
     <source path="dev/java4now/web/view"/>
     <source path="dev/java4now/web/websocket"/>
+    <resource path="dev/java4now/web/data"/>
+    <public path="" includes="dev/java4now/web/data/"/>
     <resource path="dev/java4now/web/fonts"/>
     <public path="" includes="dev/java4now/web/fonts/"/>
     <resource path="dev/java4now/web/mm_api_symbols"/>
