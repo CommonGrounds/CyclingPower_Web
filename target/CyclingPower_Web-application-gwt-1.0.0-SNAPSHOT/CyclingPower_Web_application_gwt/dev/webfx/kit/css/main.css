@@ -605,6 +605,17 @@ fx-button > fx-background {
 /*    padding: 5px;   */
 }
 
+.font-rotate-button {
+    font-size: 48px;
+    color: darkgreen !important;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.font-rotate-button:hover {
+    color: red !important;
+}
+
 .font-label {
     background-color:transparent;
     color:black;
