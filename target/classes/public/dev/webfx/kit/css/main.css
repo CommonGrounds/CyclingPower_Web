@@ -480,7 +480,7 @@ fx-button > fx-background {
 
         /* ========== 17. NEON BORDER ========== */
         .border-neon {
-            border-bottom: 2px solid #00ff00;
+           /* border-bottom: 2px solid #00ff00; */
             box-shadow: 0 -4px 20px rgba(0, 255, 0, 0.7),
                         inset 0 -1px 3px rgba(0, 255, 0, 0.5),
                         0 0 20px rgba(0, 255, 0, 0.3);
@@ -605,15 +605,20 @@ fx-button > fx-background {
 /*    padding: 5px;   */
 }
 
+/* za kruzni button Za savršen krug, uvek postavite iste vrednosti za width i height i koristite border-radius: 50%. */
 .font-rotate-button {
     font-size: 48px;
     color: darkgreen !important;
     cursor: pointer;
     background-color: transparent;
+    background-radius: 50%;
+    border-radius: 50%;
+/*    background-color: blue;  */
 }
 
 .font-rotate-button:hover {
     color: red !important;
+    border: 1px solid transparent;
 }
 
 .font-label {
@@ -637,6 +642,20 @@ fx-button > fx-background {
 
 body {
     overflow: auto; /* omogucava scroll - po defaultu hidden */
+}
+
+.dialog_button {
+    background-color: rgba(43, 42, 49, 1) !important;
+    color: white !important;
+    border-radius: 8px;
+    font-size: 2vmin;
+    cursor: pointer;
+/*    padding: 0px 7px 0px; */ /* gore desno dole  */
+}
+
+.dialog_button:hover {
+  background-color: rgba(83, 113, 149, 1) !important;
+/*  border-color: #939393; */
 }
 
 .my_button {
@@ -708,7 +727,7 @@ fx-textfield {
 }
 
 fx-textfield input {
-    font-size: clamp(16px, 4vw, 18px); /* clamp(min, preferred, max) */
+    font-size: clamp(16px, 4vw, 16px); /* clamp(min, preferred, max) */
 /*    color za text i font mora ovde - paznja za background-color */
 /*
     color: red;
@@ -1145,6 +1164,10 @@ input[type=password]{
     }
 
     .my_button{
+        font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
+    }
+
+    .dialog_button{
         font-size: clamp(16px, 4vw, 18px); /* Larger base size for small screens */
     }
 
