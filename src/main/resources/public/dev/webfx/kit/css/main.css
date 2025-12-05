@@ -646,16 +646,14 @@ body {
 
 .dialog_button {
     background-color: rgba(43, 42, 49, 1) !important;
-    color: white !important;
     border-radius: 8px;
     font-size: 2vmin;
     cursor: pointer;
 /*    padding: 0px 7px 0px; */ /* gore desno dole  */
 }
 
-.dialog_button:hover {
-  background-color: rgba(83, 113, 149, 1) !important;
-/*  border-color: #939393; */
+.dialog_button:active {
+     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .my_button {
