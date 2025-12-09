@@ -839,7 +839,7 @@ input[type=password]{
     width: 100%; /* Ensure container takes parent width */
     height: 200px; /* Fixed height for scrolling */
     overflow-y: auto; /* Ensure scrolling */
-    overflow-x: hidden;
+    overflow-x: auto; /* Ensure scrolling */;
     border: 1px solid #cdcdcd;
 }
 
@@ -1096,17 +1096,79 @@ input[type=password]{
 
 /*------------- ProgressBar --------------*/
 
+
+/* Osnovni stil progress bara */
 .custom-progress-bar {
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 20px;                    /* visina po želji */
+  width: 100%;
+  border-radius: 12px;             /* zaobljeni krajevi */
+  overflow: hidden;                /* važno za zaobljene krajeve */
+  background: #e0e0e0;             /* pozadina (prazni dio) */
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.2);
+  border: none;
 }
 
-::-webkit-progress-value {
-  background-color: green; /* progress color */
+/* ════════════════════════════════════
+   CHROME / EDGE / SAFARI
+   ════════════════════════════════════ */
+.custom-progress-bar::-webkit-progress-bar {
+  background: transparent;        /* prozirno da bi se vidjela naša pozadina */
+  border-radius: 12px;
 }
 
-/* FIREFOX */
+.custom-progress-bar::-webkit-progress-value {
+  /* Glavna zelena boja + glow/gradient */
+  background: linear-gradient(
+    to right,
+    #00ff85 0%,
+    #00cc66 50%,
+    #00b359 100%
+  );
+
+  /* Jači glow efekt */
+  box-shadow:
+    0 0 15px rgba(0, 255, 130, 0.8),
+    0 0 25px rgba(0, 255, 130, 0.5),
+    inset 0 2px 5px rgba(255, 255, 255, 0.4);
+
+  border-radius: 12px;             /* zaobljeni krajevi */
+  transition: width 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Opcionalno – animacija glow-a kad se mijenja */
+.custom-progress-bar.glowing::-webkit-progress-value {
+  animation: glowPulse 2s infinite alternate;
+}
+
+/* ════════════════════════════════════
+   FIREFOX
+   ════════════════════════════════════ */
 .custom-progress-bar::-moz-progress-bar {
-  background-color: green;  /* progress color */
+  background: linear-gradient(
+    to right,
+    #00ff85 0%,
+    #00cc66 50%,
+    #00b359 100%
+  );
+
+  border-radius: 12px;
+  box-shadow:
+    0 0 15px rgba(0, 255, 130, 0.8),
+    0 0 25px rgba(0, 255, 130, 0.5);
+}
+
+/* Fallback za starije Firefox verzije koje ne podržavaju box-shadow na ::-moz-progress-bar */
+.custom-progress-bar::-moz-meter-bar {
+  border-radius: 12px;
+}
+
+/* Animacija pulsirajućeg glow-a (možeš dodati klasu .glowing kad želiš efekt) */
+@keyframes glowPulse {
+  0%   { box-shadow: 0 0 15px rgba(0,255,130,0.8), 0 0 25px rgba(0,255,130,0.5); }
+  100% { box-shadow: 0 0 25px rgba(0,255,130,1),   0 0 40px rgba(0,255,130,0.7); }
 }
 
 /*------------- tab pane primena za chart --------------*/
