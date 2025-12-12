@@ -5,9 +5,9 @@
   <set-property name="gwt.logging.enabled" value="TRUE"/>
   <set-property name="gwt.logging.logLevel" value="FINEST"/>
   <set-property name="gwt.logging.consoleHandler" value="ENABLED"/>
+  <set-property name="domino.slf4j.logging.level" value="OFF"/>
   <set-configuration-property name="compiler.embedSourceMaps" value="true"/>
   <set-configuration-property name="includeSourceMapUrl" value="symbolMaps/__HASH___sourceMap__FRAGMENT__.json"/>
-  <set-configuration-property name="installCode" value="true"/>
   <source path="com/sun/javafx"/>
   <source path="com/sun/javafx/binding"/>
   <source path="com/sun/javafx/collections"/>
@@ -69,9 +69,9 @@
   <source path="javafx/scene/web"/>
   <source path="dev/java4now/web"/>
   <source path="dev/java4now/web/CityLocation"/>
-  <source path="dev/java4now/web/animation"/>
   <source path="dev/java4now/web/charts"/>
   <source path="dev/java4now/web/custom_ui"/>
+  <source path="dev/java4now/web/effects"/>
   <source path="dev/java4now/web/generator"/>
   <source path="dev/java4now/web/graph"/>
   <source path="dev/java4now/web/http"/>
@@ -263,6 +263,7 @@
   <source path="dev/webfx/stack/com/websocket"/>
   <source path="dev/webfx/stack/com/websocket/spi"/>
   <source path="dev/webfx/stack/com/websocket/spi/impl/elemental2/nativ"/>
+  <set-configuration-property name="installCode" value="true"/>
   <set-property name="user.agent" value="safari"/>
   <set-configuration-property name="user.agent.runtimeWarning" value="false"/>
   <set-property name="jre.checks.checkLevel" value="MINIMAL"/>
