@@ -535,6 +535,23 @@ fx-button > fx-background {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Ionicons';
+    src: url('/dev/java4now/web/fonts/ionicons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-ionicons {
+    display: inline-block;
+    font-family: 'Ionicons';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
 /* Mora i font-face za svaki font */
 .font-icon-bootstrap {
     display: inline-block;
@@ -829,8 +846,8 @@ input[type=password]{
 }
 
 /* Font i color samo za grafiku - trebalo bi da moze isto kao za label uz .graphic-text ali ne radi */
-.label_graphic_feather{
-    font-family: 'Feather';
+.label_graphic_ionicons{
+    font-family: 'Ionicons';
     color:blue;
 }
 
