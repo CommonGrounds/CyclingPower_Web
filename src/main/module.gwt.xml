@@ -94,6 +94,8 @@
     <source path="dev/java4now/web/util"/>
     <source path="dev/java4now/web/view"/>
     <source path="dev/java4now/web/websocket"/>
+    <resource path="dev/java4now/web/css"/>
+    <public path="" includes="dev/java4now/web/css/"/>
     <resource path="dev/java4now/web/data"/>
     <public path="" includes="dev/java4now/web/data/"/>
     <resource path="dev/java4now/web/fonts"/>
