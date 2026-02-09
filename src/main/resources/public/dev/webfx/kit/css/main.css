@@ -893,7 +893,7 @@ input[type=password]{
     width: 100%; /* Ensure container takes parent width */
     height: 200px; /* Fixed height for scrolling */
     overflow-y: auto; /* Ensure scrolling */
-    overflow-x: auto; /* Ensure scrolling */;
+    overflow-x: auto;
     border: 1px solid #cdcdcd;
 }
 
@@ -960,7 +960,7 @@ input[type=password]{
 
 .custom-menu-button {
     background-color: rgba(204, 255, 204, 1) !important;
-    color: white;
+    color: black;
     border:2px solid Wheat;
     border-radius: 8px;
     font-size: 2.2vmin;
@@ -992,7 +992,7 @@ input[type=password]{
 .custom-menu-small-button {
     font-family: 'CarbonIcons';
     background-color: rgba(204, 255, 204, 1) !important;
-    color: blue;
+    color: black;
     border:2px solid Wheat;
     border-radius: 8px;
     font-size: 1.6vmin;
@@ -1025,10 +1025,6 @@ input[type=password]{
     padding: 0; /* Uklonite padding jer ga sada kontrolišemo kroz container */
     cursor: pointer;
     display: block; /* Ensure each item is a block for proper spacing */
-}
-
-.custom-menu-item:hover {
-    background-color: #d0d0d0;
 }
 
 .bootstrap-menu-item {
@@ -1080,18 +1076,50 @@ input[type=password]{
 }
 
 .context-menu {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    min-width: 150px;
-    padding: 0;
-    position: absolute;
-    z-index: 1000;
+  background-color: #ffffff;          /* default = light mode */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  padding: 4px 0;
+  position: absolute;
+  z-index: 1000;
 }
 
 .context-menu .menu-item {
-    padding: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.context-menu .text {
+  color: #000000;                     /* default = light mode */
+}
+
+.context-menu-icon {
+  color: FORESTGREEN;                     /* default = light mode */
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .context-menu {
+    background-color: #1e1e1e;        /* tamnije, ali ne potpuno crno */
+    border-color: #444;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .context-menu .text {
+    color: #e0e0e0;                   /* svetlo siva za bolju čitljivost */
+  }
+
+  .context-menu-icon {
+    color: LAWNGREEN;                     /* default = light mode */
+  }
+
+  /* opciono - hover efekat u dark modu */
+  .context-menu .menu-item:hover {
+    background-color: #333;
+  }
 }
 
 /*----------------- Slider ---------------*/
@@ -1149,7 +1177,6 @@ input[type=password]{
 }
 
 /*------------- ProgressBar --------------*/
-
 
 /* Osnovni stil progress bara */
 .custom-progress-bar {
