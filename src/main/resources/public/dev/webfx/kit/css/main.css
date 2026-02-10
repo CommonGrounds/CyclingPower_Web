@@ -1049,6 +1049,7 @@ input[type=password]{
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* ------------------------------ */
 .custom-menu-item .label {
     font-size: 1.8vmin;
     font-weight: bold;    /* bold utice samo za labelu a ne na text icons */
@@ -1075,6 +1076,7 @@ input[type=password]{
     cursor: pointer;
 }
 
+/* ------------------ Context menu ------------------ */
 .context-menu {
   background-color: #ffffff;          /* default = light mode */
   border: 1px solid #ccc;
@@ -1090,10 +1092,29 @@ input[type=password]{
   padding: 6px 12px;
   cursor: pointer;
   user-select: none;
+  background-color: transparent !important;
+}
+
+.context-menu .menu-item:active {
+  background-color: transparent !important;
+}
+
+.context-menu .menu-item:focus {
+  background-color: transparent !important;  /* uklanja default highlight boju */
+  outline: none !important;
+}
+
+.context-menu .menu-item:focus-visible {
+  background-color: transparent !important; /* uklanja default highlight boju */
+  outline: none !important;
 }
 
 .context-menu .text {
   color: #000000;                     /* default = light mode */
+}
+
+.context-menu .menu-item:hover {
+  background-color: #f0f0f0 !important;  /* zamjena za default highlight boju */
 }
 
 .context-menu-icon {
@@ -1117,8 +1138,16 @@ input[type=password]{
   }
 
   /* opciono - hover efekat u dark modu */
+  .context-menu .menu-item {
+    background-color: transparent !important;
+  }
+
   .context-menu .menu-item:hover {
-    background-color: #333;
+    background-color: #333 !important;   /* zamjena za default highlight boju */
+  }
+
+  .context-menu .menu-item:active {
+    background-color: transparent !important;
   }
 }
 
